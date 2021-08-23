@@ -38,12 +38,33 @@ button.navbar-toggler {
     background-color: black;
 }
 
+.social-text{
+    color: #fff;
+    text-align: center;
+    font-size: large;
+}
+
 .social-media a {
     color: #fff;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding: 15px;
+    font-size: large;
+    text-align: center;
 }
 
 .social-media a:hover { 
     color: #d20a11;
+}
+
+
+.remember {
+    color: #fff;
+    text-align: center;
+    font-size: x-large;
+}
+
+.credit {
+    color: #fff;
+    text-align: center;
+    font-size: small;
+    padding-bottom: 30px;
 }
