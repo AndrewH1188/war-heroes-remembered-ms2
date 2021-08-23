@@ -8,9 +8,42 @@
 
 .navbar-brand {
     color: white;
-    font-size: 600;
+    font-size: x-large;
+    font-weight: 600;
+}
+
+.nav-link {
+    color: white;
+}
+
+
+ul.navbar-nav{
+    justify-content: right;
+}
+
+
+a:hover { 
+    color: #d20a11;
+}
+
+button.navbar-toggler {
+    color: #fff;
 }
 
 
 
-/*--------------- */
+/*--------------- Footer */
+
+.footer-bg {
+    background-color: black;
+}
+
+.social-media a {
+    color: #fff;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.social-media a:hover { 
+    color: #d20a11;
+}
