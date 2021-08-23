@@ -1,0 +1,16 @@
+/*--------------- Navigation Bar*/
+
+.navbar {
+    background-color: black;
+    padding: 30px;
+}
+
+
+.navbar-brand {
+    color: white;
+    font-size: 600;
+}
+
+
+
+/*--------------- */
