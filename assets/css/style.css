@@ -1,4 +1,4 @@
-/*--------------- Navigation Bar*/
+/*--------------------------------------------- Navigation Bar */
 
 .navbar {
     background-color: black;
@@ -32,7 +32,20 @@ button.navbar-toggler {
 
 
 
-/*--------------- Footer */
+
+
+/*--------------------------------------------- Home hero image */
+
+.home-hero {
+    width: 100%;
+    padding-bottom: 90px;
+}
+
+
+
+
+
+/*--------------------------------------------- Footer */
 
 .footer-bg {
     background-color: black;
@@ -42,29 +55,41 @@ button.navbar-toggler {
     color: #fff;
     text-align: center;
     font-size: large;
+    padding-top: 25px;
+    margin-bottom: 0;
 }
 
-.social-media a {
+.sm-icons a {
     color: #fff;
-    padding: 15px;
+    padding-left: 15px;
     font-size: large;
-    text-align: center;
 }
 
-.social-media a:hover { 
+.sm-icons a:hover { 
     color: #d20a11;
 }
 
+.sm-icons {
+text-align: center;
+padding: 0;
+margin: 0;
+}
 
 .remember {
     color: #fff;
     text-align: center;
     font-size: x-large;
+    padding-top: 2px;
 }
 
 .credit {
     color: #fff;
     text-align: center;
-    font-size: small;
-    padding-bottom: 30px;
+    font-size: x-small;
+    padding-bottom: 25px;
+    padding-top: 5px;
+}
+
+p {
+    margin-bottom: 0;
 }
