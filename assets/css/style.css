@@ -32,17 +32,30 @@ button.navbar-toggler {
 
 
 
-
-
 /*--------------------------------------------- Home hero image */
 
 .home-hero {
     width: 100%;
-    padding-bottom: 90px;
+    padding-bottom: 50px;
+}
+
+/*--------------------------------------------- Home welcome */
+
+.welcome {
+    text-align: center;
+    font-size: x-large;
+    font-weight: 600;
+    padding-bottom: 25px;
 }
 
 
 
+.welcome-article {
+    text-align: center;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-bottom: 10px;
+}
 
 
 /*--------------------------------------------- Footer */
@@ -89,6 +102,8 @@ margin: 0;
     padding-bottom: 25px;
     padding-top: 5px;
 }
+
+
 
 p {
     margin-bottom: 0;
