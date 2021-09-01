@@ -1,24 +1,19 @@
 /*--------------------------------------------- Navigation Bar */
 
 .navbar {
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     padding: 30px;
 }
 
 
 .navbar-brand {
-    color: white;
+    color: #fff;
     font-size: x-large;
     font-weight: 600;
 }
 
-.nav-link {
-    color: white;
-}
-
-
-ul.navbar-nav{
-    justify-content: right;
+.nav-link{
+    color: #fff;
 }
 
 
@@ -26,11 +21,29 @@ a:hover {
     color: #d20a11;
 }
 
-button.navbar-toggler {
-    color: #fff;
+
+.active { 
+    color: #b46e38;
 }
 
 
+/*
+button.navbar-toggler:hover {
+    color: #d20a11;
+}
+
+
+button.navbar-toggler {
+    text-align: end;
+
+}
+
+button.navbar-toggler.bg-light {
+    color: #d20a11;
+}
+
+
+*/
 
 /*--------------------------------------------- Home hero image */
 
@@ -118,3 +131,38 @@ margin: 0;
 p {
     margin-bottom: 0;
 }
+
+
+
+
+
+
+
+
+
+/*--------------------------------------------- Media Queries */
+
+/*
+@media (max-width: 992px) { 
+    .nav-item {
+        justify-content: flex-end;
+ 
+    }
+    }
+
+
+
+@media (max-width: 768px) { 
+    .nav-item {
+        justify-content: flex-end;
+}
+}
+
+
+@media (max-width: 576px) {
+    .nav-item {
+        justify-content: flex-end;
+}
+}
+
+*/
