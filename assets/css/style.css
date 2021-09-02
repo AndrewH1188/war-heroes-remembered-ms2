@@ -81,6 +81,21 @@ button.navbar-toggler.bg-light {
 }
 
 
+
+/*--------------------------------------------- Back to top button */
+
+/* The code here for the back to top button has been taken from Material Design for Bootstrap (MDB) v5 & v4 */
+
+#btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+  }
+  
+
+
+
 /*--------------------------------------------- Footer */
 
 .footer-bg {
