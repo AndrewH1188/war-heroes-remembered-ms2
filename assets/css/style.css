@@ -23,7 +23,7 @@ a:hover {
 
 
 .active { 
-    color: #b46e38;
+    color: #ceb7a5;
 }
 
 
@@ -94,6 +94,60 @@ button.navbar-toggler.bg-light {
   }
   
 
+
+
+/*--------------------------------------------- Heroes Pages */
+
+.remembering-hero {
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+
+.remembering {
+    text-align: center;
+    font-size: x-large;
+    font-weight: 600;
+    padding-bottom: 45px;
+}
+
+
+
+.heroes1-bg {
+    background-color: #fafafa;
+}
+
+
+
+
+
+
+
+
+
+/*--------------------------------------------- Contact Page */
+
+.contact-hero {
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+
+.contact-header {
+    text-align: center;
+    font-size: x-large;
+    font-weight: 600;
+    padding-bottom: 45px;
+}
+
+
+
+.poppies-contact-page {
+    width: 100%;
+    height: 650px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
 
 
 /*--------------------------------------------- Footer */
