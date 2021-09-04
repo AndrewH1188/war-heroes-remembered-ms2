@@ -99,7 +99,7 @@ button.navbar-toggler.bg-light {
 /*--------------------------------------------- Heroes Pages */
 
 .remembering-hero {
-    width: 100%;
+    width: 100%; 
     padding-bottom: 50px;
 }
 
@@ -115,11 +115,32 @@ button.navbar-toggler.bg-light {
 
 .heroes1-bg {
     background-color: #fafafa;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 
+.war-hero-photo {
+    padding-left: 16%;
+    padding-right: 16%;
+    padding-bottom: 10px;
+
+}
 
 
+.heroes2 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+
+.hero-info {
+    text-align: center;
+    width: 70%;
+    padding-left: auto;
+    padding-right: auto;
+
+}
 
 
 
@@ -148,6 +169,12 @@ button.navbar-toggler.bg-light {
     padding-top: 50px;
     padding-bottom: 50px;
 }
+
+
+
+
+
+
 
 
 /*--------------------------------------------- Footer */
@@ -228,9 +255,17 @@ p {
 }
 
 
-@media (max-width: 576px) {
-    .nav-item {
-        justify-content: flex-end;
+@media (min-width: 576px) {
+    .col-sm-6 {
+        max-width: 50%;
+        flex: 0 0 50%
+}
+}
+@media (min-width: 576px) {
+.col-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
 }
 }
 
