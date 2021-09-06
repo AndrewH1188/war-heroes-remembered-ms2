@@ -198,10 +198,14 @@ button.navbar-toggler.bg-light {
 
 #fullname {
     margin-bottom: 15px;
+    margin-right: 10px;
+    margin-left: 0;
 }
 
 #emailaddress {
     margin-bottom: 15px;
+    margin-left: 0;
+
 }
 
 .form {
@@ -209,10 +213,13 @@ button.navbar-toggler.bg-light {
     padding-right: 25%;
 }
 
+
 .message-area { 
-    min-height: 400px;
-    min-width: 400px;
+    min-height: 380px;
+    min-width: 530px;
     resize: none;
+    padding-left: 25%;
+    padding-right: 25%;
 }
 
 
@@ -230,6 +237,10 @@ button.navbar-toggler.bg-light {
 .button {
     padding-top: 45px;
     padding-left: 40%;
+}
+
+.button :hover {
+    background-color: #d20a11;
 }
 
 
@@ -331,8 +342,28 @@ p {
 }
 
 
-/*--------------------------------------------- Media Queries (These are active to allow the send to center on mob, so leave these be.) */
+/*--------------------------------------------- Media Queries */
 
+/* Heroes */ /*-----------------THIS NEEDS COMPLETING */
+@media (max-width: 768px) { 
+    .XXXXXX { 
+        padding-left: 35%;
+    }
+    }
+    
+    
+    @media (max-width: 576px) {
+    .XXXXXXXX {
+            padding-left: 22%;
+        }
+    }
+
+
+
+
+
+
+/* Contact Form */
 
 @media (max-width: 768px) { 
 .button { 
@@ -348,19 +379,23 @@ p {
 }
 
 
-
-/*
-
-.form {
-    padding-left: 25%;
-    padding-right: 25%;
+@media (max-width: 768px) { 
+    .message-area { 
+    min-height: 380px;
+    min-width: 382px;
+    padding: 0;
+}
 }
 
+
+@media (max-width: 576px) {
 .message-area { 
-    min-height: 400px;
-    min-width: 400px;
-    resize: none;
-    /* overflow: auto; 
+    min-height: 380px;
+    min-width: 208px;
+    padding: 0;
+}
 }
 
-*/
+
+
+
