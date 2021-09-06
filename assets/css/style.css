@@ -171,9 +171,66 @@ button.navbar-toggler.bg-light {
 }
 
 
+.contact-us-header {
+    text-align: center;
+    font-size: x-large;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+
+.contact-text {
+    text-align: center;
+    font-size: medium;
+    font-weight: 200;
+    padding-bottom: 45px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+
+.title {
+    font-size: medium;
+    font-weight: 250;
+    padding-bottom: 15px;
+
+}
+
+
+#fullname {
+    margin-bottom: 15px;
+}
+
+#emailaddress {
+    margin-bottom: 15px;
+}
+
+.form {
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+.message-area { 
+    min-height: 400px;
+    min-width: 400px;
+    resize: none;
+}
 
 
 
+
+.send-button {
+    text-align: center;
+    margin-bottom: 50px;
+    color: #fff;
+    background-color: black;
+    border-radius: 10px;
+    padding: 5px 35px 5px 35px;
+}
+
+.button {
+    padding-top: 45px;
+    padding-left: 40%;
+}
 
 
 
@@ -202,9 +259,9 @@ button.navbar-toggler.bg-light {
 }
 
 .sm-icons {
-text-align: center;
-padding: 0;
-margin: 0;
+    text-align: center;
+    padding: 0;
+    margin: 0;
 }
 
 .remember {
@@ -221,8 +278,6 @@ margin: 0;
     padding-bottom: 25px;
     padding-top: 5px;
 }
-
-
 
 p {
     margin-bottom: 0;
@@ -267,6 +322,45 @@ p {
     flex: 0 0 100%;
     max-width: 100%;
 }
+}
+
+*/
+
+@media (max-width: 992px) { 
+
+}
+
+
+/*--------------------------------------------- Media Queries (These are active to allow the send to center on mob, so leave these be.) */
+
+
+@media (max-width: 768px) { 
+.button { 
+    padding-left: 35%;
+}
+}
+
+
+@media (max-width: 576px) {
+.button {
+        padding-left: 22%;
+    }
+}
+
+
+
+/*
+
+.form {
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+.message-area { 
+    min-height: 400px;
+    min-width: 400px;
+    resize: none;
+    /* overflow: auto; 
 }
 
 */
