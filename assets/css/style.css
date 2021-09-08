@@ -5,7 +5,6 @@
     padding: 30px;
 }
 
-
 .navbar-brand {
     color: #fff;
     font-size: x-large;
@@ -16,34 +15,26 @@
     color: #fff;
 }
 
-
 a:hover { 
     color: #d20a11;
 }
-
 
 .active { 
     color: #ceb7a5;
 }
 
+.navbar-toggler { 
+    color:#fff;
+}
 
-/*
-button.navbar-toggler:hover {
+.navbar-toggler:hover {
     color: #d20a11;
 }
 
-
-button.navbar-toggler {
-    text-align: end;
-
+.navbar-toggler:active {
+    color: #ceb7a5;
 }
 
-button.navbar-toggler.bg-light {
-    color: #d20a11;
-}
-
-
-*/
 
 /*--------------------------------------------- Home hero image */
 
@@ -316,8 +307,9 @@ p {
 
 /* Heroes */ /*-----------------THIS NEEDS COMPLETING */
 @media (max-width: 768px) { 
-    .XXXXXX { 
-        padding-left: 35%;
+    .hero-info { 
+        padding-left: 15%;
+        width: 90%;
     }
     }
     
@@ -331,7 +323,6 @@ p {
 
 
 
-    @media (max-width: 992px) { }
 
 
 
@@ -339,42 +330,36 @@ p {
 
 
 
-/* Contact Form */
-
-@media (max-width: 768px) { 
-.button { 
-    padding-left: 35%;
-}
-}
-
-
-@media (max-width: 576px) {
-.button {
-        padding-left: 22%;
-    }
-}
 
 
 
 
+
+
+
+/*---------------------------- Computer larger screen size */ 
 
 @media (max-width: 1200px) {
     .message-area { 
         min-height: 380px;
         max-width: 1000px;
         padding: 0;
-
     }
 }
 
 
+/*---------------------------- Computer medium screen size */ 
 
 @media (max-width: 992px) { 
     .message-area { 
     min-height: 380px;
     min-width: 202px;
     padding: 0;
-}
+    }
+
+.navbar-toggler { 
+        margin-left: 520px;
+    }
 }
 
 
@@ -385,7 +370,37 @@ p {
     min-width: 382px;
     padding: 0;
 }
+
+.navbar-brand { 
+    font-size: larger;
+    padding-left: 20px;
 }
+
+.navbar-toggler { 
+    margin-left: 10px;
+}
+
+.button { 
+    padding-left: 35%;
+}
+.hero-info { 
+    width: 85%;
+}
+
+.hero-text {
+    padding-bottom: 60px;
+}
+
+.war-hero-photo {
+    padding-left: 25%;
+}
+
+.contact-header {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+}
+
 
 
 /*---------------------------- Galaxy Fold */
@@ -396,8 +411,8 @@ p {
     min-width: 20px;
     padding: 0;
 }
+
+.button {
+    padding-left: 22%;
 }
-
-
-
-
+}
