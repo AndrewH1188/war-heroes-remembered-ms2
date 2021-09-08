@@ -144,7 +144,6 @@ a:hover {
     padding-bottom: 50px;
 }
 
-
 .contact-header {
     text-align: center;
     font-size: x-large;
@@ -152,7 +151,15 @@ a:hover {
     padding-bottom: 45px;
 }
 
-
+#map {
+    min-height: 400px;
+    min-width: 300px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 60px;
+}
 
 .poppies-contact-page {
     width: 100%;
@@ -160,7 +167,6 @@ a:hover {
     padding-top: 50px;
     padding-bottom: 50px;
 }
-
 
 .contact-us-header {
     text-align: center;
@@ -178,14 +184,11 @@ a:hover {
     padding-right: 70px;
 }
 
-
 .title {
     font-size: medium;
     font-weight: 250;
     padding-bottom: 15px;
-
 }
-
 
 #fullname {
     margin-bottom: 15px;
@@ -196,14 +199,12 @@ a:hover {
 #emailaddress {
     margin-bottom: 15px;
     margin-left: 0;
-
 }
 
 .form {
     padding-left: 25%;
     padding-right: 25%;
 }
-
 
 .message-area { 
     min-height: 380px;
@@ -212,7 +213,6 @@ a:hover {
     padding-left: 25%;
     padding-right: 25%;
 }
-
 
 .send-button {
     text-align: center;
