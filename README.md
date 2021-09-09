@@ -144,6 +144,40 @@ The following outlines and shows the information that was gathered to complete t
 
 I used many online sources that I found in order to give as much information about those that I am including on my website, but not only this but to also confirm that the information that I obtained is as up to date and as correct as possible. I have checked through all links and these all link to the correct sources of the information I am looking for.
 
+#### Memorial Location coordinates:
+
+All of the coordinates that I have added to my JavaScript Map file have been found using [Google Maps](https://www.google.com/maps/). The name of the memorial or cemetery was searched for in the search box of Google Maps. In order to get the coordinates of the locations, I right-clicked the pin on the cemetery or memorial and this showed me at the top the coordinates for these. I listed the name, link and coordinates in a [TextEdit](https://en.wikipedia.org/wiki/TextEdit) file and then loaded the coordinates and names into the locations of my JavaScript Map file. I have made this easier for myself by adding the names of the memorials or cemeteries as commented out text above the latitude and longitude coordinates to remind me as well as make this clear to another developer should they wish to fork or clone my website.
+
+##### Memorials:
+* [Mitcham War Memorial](https://www.google.com/maps/place/Mitcham+War+Memorial/@51.4020001,-0.1710709,17z/data=!3m1!4b1!4m5!3m4!1s0x487607e4531edcc1:0x4054e85eb803a7ca!8m2!3d51.4019968!4d-0.1688822)
+51.40219, -016890
+* [Helles Memorial](https://www.google.com/maps/place/Helles+Memorial/@40.0458333,26.176978,17z/data=!3m1!4b1!4m5!3m4!1s0x14b04c4c4365d56d:0x957f62af4e81104!8m2!3d40.0458125!4d26.1792157)
+40.04597, 26.17921
+* [Plymouth Naval Memorial](https://www.google.com/maps/place/Plymouth+Naval+Memorial/@50.3656944,-4.144452,471m/data=!3m2!1e3!4b1!4m5!3m4!1s0x486c93523afb10b5:0x812a02e710fad21e!8m2!3d50.365691!4d-4.1422633)
+50.36571, 4.14228 - Coordinates for the Map
+* [Menin Gate Memorial](https://www.google.com/maps/place/Menin+Gate/@50.8519971,2.8889386,466m/data=!3m1!1e3!4m5!3m4!1s0x47dccef80de49a41:0xbf9442beac718fb3!8m2!3d50.8519937!4d2.8911326)
+ 50.85217, 2.89107
+* [Canadian National Vimy Memorial](https://www.google.com/maps/place/Canadian+National+Vimy+Memorial/@50.3795947,2.7717794,471m/data=!3m2!1e3!4b1!4m5!3m4!1s0x47dd376aa65c325d:0xb819d1715a18b36b!8m2!3d50.3795913!4d2.7739734)
+50.397976, 2.77402
+* [Thiepval Memorial Pier](https://www.google.com/maps/search/Thiepval+Memorial+Pier/@50.0514314,2.6847777,474m/data=!3m2!1e3!4b1)
+50.05069, 2.68577
+
+##### Cemeteries:
+* [St Souplet British Cemetery France](https://www.google.com/maps/place/St+Souplet+British+Military+Cemetery/@50.0546909,3.5221946,17z/data=!3m1!4b1!4m5!3m4!1s0x47c284af4c8313ed:0x6a04169778f6722d!8m2!3d50.0546875!4d3.5243833)
+50.05484, 3.52440 
+* [Rue-Petillon Military Cemetery](https://www.google.com/maps/place/Rue-Petillon+Military+Cemetery,+Fleurbaix/@50.6310711,2.8338945,17z/data=!3m1!4b1!4m5!3m4!1s0x47dd283db20eb807:0x65e29aa20520b5c3!8m2!3d50.6310677!4d2.8360832)
+50.63123, 2.83609
+* [St. Sever Cemetery, Rouen France](https://www.google.com/maps/place/St.+Sever+Cemetery+Extension/@49.4091708,1.0633867,17z/data=!3m1!4b1!4m5!3m4!1s0x47e0de2eca58833b:0x6c7f929f26fe3298!8m2!3d49.4091673!4d1.0655754)
+49.40933, 1.06558
+* [Tyne Cot Memorial](https://www.google.com/maps/place/Tyne+Cot+Cemetery+%26+Visitors+Centre/@50.8871163,2.9963493,466m/data=!3m2!1e3!4b1!4m5!3m4!1s0x47dccc9e65f915a3:0x35c962d98dd8a4a0!8m2!3d50.8871129!4d2.9985433)
+ 50.88725, 2.99852
+* [Loos British Cemetery](https://www.google.com/maps/place/Loos+British+Cemetery/@50.4514285,2.795859,470m/data=!3m2!1e3!4b1!4m5!3m4!1s0x47dd3070df24a717:0x1dd3a20ed516d46f!8m2!3d50.4514251!4d2.798053)
+50.45156, 2.79803
+* [Tezze British Cemetery, Italy](https://www.google.com/maps/place/British+Commonwealth+War+Graves+Cemetery/@45.8128971,12.3407496,1461m/data=!3m1!1e3!4m12!1m6!3m5!1s0x47794050b9aeb6a5:0x111479813ae8327f!2sBritish+Commonwealth+War+Graves+Cemetery!8m2!3d45.8133814!4d12.3478052!3m4!1s0x47794050b9aeb6a5:0x111479813ae8327f!8m2!3d45.8133814!4d12.3478052)
+45.81382, 12.34771
+* [Hollybrook Memorial, Southampton](https://www.google.com/maps/place/Hollybrook+Memorial/@50.9338534,-1.4312942,75m/data=!3m1!1e3!4m5!3m4!1s0x4874743bae557ee1:0x41af557288956b14!8m2!3d50.9336937!4d-1.430987)
+50.93371, -1.43099 
+
 
 ## Media
 Images were purchased / downloaded from the following websites:
