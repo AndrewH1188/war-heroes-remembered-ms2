@@ -85,8 +85,6 @@ a:hover {
   }
   
 
-
-
 /*--------------------------------------------- Heroes Pages */
 
 .remembering-hero {
@@ -110,7 +108,6 @@ a:hover {
     padding-bottom: 40px;
 }
 
-
 .war-hero-photo {
     padding-left: 16%;
     padding-right: 16%;
@@ -118,20 +115,41 @@ a:hover {
 
 }
 
-
 .heroes2 {
     padding-top: 40px;
     padding-bottom: 40px;
 }
-
 
 .hero-info {
     text-align: center;
     width: 70%;
     padding-left: auto;
     padding-right: auto;
-
 }
+
+.pg-button-heroes {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+a {
+    color:#fff;
+}
+
+.btn-heroes-pages {
+    background-color: #acacac;
+    border-color: transparent;
+}
+
+button.btn-heroes-pages.active {
+    background-color: #ce4040;
+}
+
+.btn-heroes-pages:hover {
+    background-color: #ceb7a5;
+    border-color: transparent;
+}
+
 
 
 
