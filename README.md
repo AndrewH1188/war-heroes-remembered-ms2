@@ -110,6 +110,149 @@ The user goals that I would like War Heroes Remembered to provide to the user ar
 * There is the ability other than social media for users to also make contact/interact with us by filling in their name, email and their enquiry or message.
 
 
+#### Site Goals 
+The site goals that I want to achieve from creating this website are:
+* I would like to be able to reach out to people that may be interested in finding out about the past in relation to World War One but with a focus in a sense less on the bigger picture but more on the people that played their part. In doing so this makes the site more personal and I feel a connection with my website and the content as a visitor/user.
+* In having the ability to find heroes that are buried at the cemeteries or remembered on memorials listed on the map. In doing so I would like and hope that users will visit these locations to pay their respects to those that went out and made the ultimate sacrifice.
+* I would like visitors/users to engage with the interactive features as well as make the most of the social media pages and accounts that I have set up for this project.
+* I would like visitors/users to be able to take something from my site and the aims of my site which is about learning all about the different heroes that have been listed.
+
+
+#### Strategy
+When planning the site I was originally going to call this A Heroes Story, Heroes Stories, Stories of Heroes but decided that although these names contribute to the site content and what it was to be about that I had in mind, telling the stories of heroes would not be a strong enough title and telling the stories of heroes would not be as easy as I first thought as there are so many that there is very little known about them. Also with this in mind I had to refine the site and as they say keep it simple. This lead me to come up with the name War Heroes Remembered. With this name in place I was able to set the grounds for what I wanted the project to be about, what I required, the design and layout that I wanted to produce and see as the final finished website.
+
+
+#### Scope
+With the layout of my website designed as I have done, I wanted to achieve the easy effective clean look and feel, whilst also making the HTML and CSS quick to go through, this is so that I would be able to get stuck in with the JavaScript sections that I added to incorporate the interactivity of the visitor/user of my website.
+
+Having the simple effective deign and layout I want my users to be able to obtain and learn the information as quickly as possible, without having to go searching all over my website.
+
+
+#### Structure
+I have structured the information/content on the relevant pages to allow the user/visitor obtain this easily and efficiently. This allows my website to be fully functional in terms of user-friendly and reliability that the user will be able to obtain the relevant information according to page title and content on this page.
+
+
+#### Skeleton
+Like the Structure plane all information will be grouped on the relevant pages under the relevant links and titles on the page. The information will be represented with icons for the social media platforms (that feature across all pages) as well as text and appropriate images for the content/text this is referring to or relating to. There will be images included that relate to the theme of the site of remembrance like poppies, crosses, graves and memorials. The user will be able to use the links in the nav bar to get from one page to another efficiently and effectively.
+
+
+#### Surface
+The finished product will look respectable and clean. This is so that the users/visitors can see and get the feel of the site and its aims, whilst also remembering the users will be able to learn and interact. I have chosen a font from [Google Fonts:](https://fonts.google.com/) called [Poppins](https://fonts.google.com/specimen/Poppins?query=popp) that I think is clean and complements the feel of the site that I am after showcasing to the users/viewers of my site. Dark colours such as black and red have been added to keep in with the element of remembering and also complement each other as well as a light stone colour to offset the both of these. The colours of the light stone and dark red have been taken from the images and helps tie everything neatly together aiding the clean design, look and feel of my finished website.
+
+
+## Design
+This site has been designed over four pages and has links in the nav bar for four pages which are Home, About, Heroes and Contact Us. There is an extra Heroes page which isn’t featured in the nav bar links, this is because I wanted to add a toggler to the bottom of the Heroes page, this is so that when the user reaches the bottom of the Heroes page 1 they are able to continue their journey and read about Heroes featured on page2. I hope that by doing this I can increase the user interaction of my page as well as inform the user a bit more about the extra Heroes that I have researched.
+
+Incorporated int the Home page is the About section down near the bottom in order to add extra content to the Home page, this and to give the user a feel for the page and why they should continue with it and what they can expect. 
+
+The Heroes page as mentioned above features a second page of Heroes that is accessed from the first page. This is to add interaction and get the user engaging with the page a bit more, but also to enable them to keep discovering and learning along their journey throughout the page.
+
+The Contact Us page features the map at the top of the page and this allows the user to search for the heroes listed on the page grave sites or where they are remembered / commemorated on a memorial. By adding this it also allows for more interaction from the user as well as allowing them to potentially visit the site / location of the Hero listed. Also on the Contact Us page the user has the ability to message / contact at the bottom of the page. This has been linked to EmailJS which is linked to my email account that I have specifically set up to allow me to receive emails / messages that the user has sent. 
+
+Throughout the site using [Material Design for Bootstrap MDB](https://mdbootstrap.com/) there is the ability on whatever device the user is viewing my website on to be able to go back to the top of the page with a button that appears when they scroll down. As mentioned this has been done using [Material Design for Bootstrap MDB](https://mdbootstrap.com/docs/standard/extended/back-to-top/).
+
+The designs original and amended can be found using the links below:
+* [Original Home Page](/workspace/war-heroes-remembered-ms2/assets/images/designs/whr-home-page.jpg)
+* [Original Heroes Option 1]/workspace/war-heroes-remembered-ms2/assets/images/designs/whr-heroes1-page-option1.jpg)
+* [Original Heroes Option 2](/workspace/war-heroes-remembered-ms2/assets/images/designs/whr-heroes2-page-option2.jpg)
+* [Original Contact Page](/workspace/war-heroes-remembered-ms2/assets/images/designs/whr-contact-page.jpg)
+* [NEW Heroes Page 1](/workspace/war-heroes-remembered-ms2/assets/images/designs/whr-heroes-1-page-new.jpg)
+* [NEW Heroes Page 2](/workspace/war-heroes-remembered-ms2/assets/images/designs/whr-heroes-2-page-new.jpg)
+* [NEW Contact Page](/workspace/war-heroes-remembered-ms2/assets/images/designs/whr-contact-us-page-new.jpg)
+* [Instruction Page](/workspace/war-heroes-remembered-ms2/assets/images/designs/whr-instruction-page.jpg)
+
+The font that has been used throughout my site is called Poppins as this is a nice clean font and I think complements the nature of the design and what the site is about. I have used the same font throughout my site in order to keep consistency, a clean look and tie all the pages in the way of design and feel together.
+
+I have chosen the following colours:
+* #d31216 - red - which has been used for hovered links.
+* #fff - white - links and text in the black nav and footer bars.
+* #ceb7a5 - a stone like colour - which has been used to show active links.
+* black - which has been used for the nav bar and footer.
+
+All colours have been used as they complement the look and feel of the page as well as each other. I selected the red and the stone colour from the images using the Adobe InDesign colour picker. I used Adobe InDesign in order to make a mock up of my final web page. In doing this it allows me to see a bit better than the wire frames how the final outcome will closely match my [Adobe InDesign](https://www.adobe.com/uk/products/indesign.html) final file. Also this gives the user / another developer the ability to see the static designed version and compare this to my live version.
+
+In my original design I added a basic [Instruction Page](/workspace/war-heroes-remembered-ms2/assets/images/designs/whr-instruction-page.jpg) which has allowed me to refer to this for the colours that were used so that I can not only add them above in my README.md file, but also onto the site itself. In this file there are the icons and the links from [Font Awesome](https://fontawesome.com/) which has helped and sped up the construction of my website.
+
+
+## Imagery
+* I designed the Favicon in [Adobe Illustrator](https://www.adobe.com/uk/products/illustrator.html) then exported this as a jpg in order to add this into the images folder without any issues. I created the Favicon as a larger size than the usual that is required as this makes the resolution when displayed in the browser view higher resolution than the normal favicon size which appears pixilated. 
+* The great image used as the Hero image on the home page had to change from the one on my initial design because I couldn’t find where I originally downloaded this from, so couldn’t credit the person that took this photograph. I found the new and very similar image on [Adobe Stock](https://stock.adobe.com/uk/) that I am able to credit.
+1. [Poppies on the remembrance wall](https://stock.adobe.com/images/poppies-on-the-remembrance-wall/231816455?asset_id=231816455)
+ * file #: 231816455
+ * Photo uploaded to Adobe Stock by Vince
+I selected this as the Hero image for the Home page (index.html) as it is a strong, complementary, respectful image to use as the remembrance wall has many poppies in to the fallen heroes. This image is complemented by the choice of colours that I have used.
+2. [Graveyard with monument in Normandy](https://pixy.org/search.php?search=Graveyard+with+monument+in+Normandy)
+This is the image that I have used on the home page (index.html) above the About Us (index.htm#aboutl) section. I have used this image to section off the about us section and also as it is in keeping with the theme of the site and what this is about which is remembering as well as learning about our War Heroes. 
+3. [Colleville-Sur-Mer Cemetery D-Day United States](https://pixabay.com/photos/colleville-sur-mer-cemetery-d-day-2139248/) 
+ * Photo uploaded to Pixabay by herb1979
+This image has been downloaded from [Pixabay](https://pixabay.com/) and used on the Heroes page.
+[memorial, cemetery, military, d-day, normandy, graveyard, monument, peace, memory, landmark, patriotic](https://www.pikist.com/free-photo-vsecq)
+4. [Ramscappelle Road Military Cemetery](https://stock.adobe.com/uk/images/ramscappelle-road-military-cemetery/179912388)
+ * file #: 179912388
+ * Photo uploaded to Adobe Stock by Kartouchken
+This image has been used for the Heroes that unfortunately have no photo of them available. This image has also been used on Facebook, Twitter and Instagram for the Heroes as well.
+#### Heroes Page 1 image sources
+5. [Private Richard Spearink](https://stock.adobe.com/uk/images/ramscappelle-road-military-cemetery/179912388)
+ * file #: 179912388
+ * Photo uploaded to Adobe Stock by Kartouchken
+6. [Private Frederick Spearink](https://www.ww1cemeteries.com/uploads/7/4/4/5/74452945/helles-mem-spearink_orig.png)
+7. [Thomas Banister](https://livesofthefirstworldwar.iwm.org.uk/lifestory/167008) Source information ID: 9322132
+8. [Second Lieutenant Sidney Vandyke Hasluck](https://www.iwm.org.uk/collections/item/object/205300873) Imperial War Museums credit © IWM HU 123053.
+9. [Nurse Elizabeth McMath (Daisy) Warnock](https://www.iwm.org.uk/collections/item/object/205381399) Imperial War Museums credit: © IWM WWC D13-H2-74.
+10. Private Thomas Phillips - My own photo taken on my iPhone 11 at the Huthwaite Cemetery Cenotaph Memorial.
+11.[Leading Seaman John Sexton](https://stock.adobe.com/uk/images/ramscappelle-road-military-cemetery/179912388)
+12. [Lance Corporal Arthur Norman (Barney) Allen](https://www.awm.gov.au/collection/P10687374) Item copyright: Copyright expired - public domain, Public Domain Mark This item is in the Public Domain.
+#### Heroes Page 2 image sources
+13. [Major and acting Lieutenant-Colonel Harry Moorhouse](https://archives.passchendaele.be/en/soldier/1284) 
+14. [Captain Ronald Moorhouse](https://archives.passchendaele.be/en/soldier/1286)
+15. [Private John “Jack” Henry Thomas](https://www.canada.ca/en/department-national-defence/services/military-history/history-heritage/casualty-identification-military/private-john-henry-thomas.html)
+16.  [Private Bertram Alec Reader](https://ww1richmond.wordpress.com/2016/05/20/boy-soldier-private-alec-reader/)
+17. [Trooper George Ernest Dawkes](https://stock.adobe.com/uk/images/ramscappelle-road-military-cemetery/179912388) 
+18. [Private Adolphus Jack](https://stock.adobe.com/uk/images/ramscappelle-road-military-cemetery/179912388) 
+19. [Lance Corporal Norman Frank Ewart Cole](https://livesofthefirstworldwar.iwm.org.uk/lifestory/886777) 
+20. [Rifleman Henry William Longman](https://livesofthefirstworldwar.iwm.org.uk/lifestory/5418305) 
+21. [Remembrance Day](https://www.publicdomainpictures.net/en/view-image.php?image=12797&picture=remembrance-day)
+ * Photo uploaded to PublicDomainPictures.net by Petr Kratochvil
+[PublicDomainPictures.net](https://www.publicdomainpictures.net/en/)
+This image has been used on the Contact Us page at the top.
+22. [Poppies Field Sunset Dusk Sunlight Flowers Meadow](https://pixabay.com/photos/poppies-field-sunset-dusk-sunlight-174276/)
+ * Photo uploaded to PublicDomainPictures.net by danigeza
+[PublicDomainPictures.net](https://www.publicdomainpictures.net/en/)
+This photo has been used on the Contact Us page in the middle and used on Facebook, Twitter and Instagram also as the main image.
+23. [Facebook icon](https://fontawesome.com/v5.15/icons/facebook-f?style=brands)
+24. [Twitter icon](https://fontawesome.com/v5.15/icons/twitter?style=brands)
+25. [Instagram icon](https://fontawesome.com/v5.15/icons/instagram?style=brands)
+26. [YouTube icon](https://fontawesome.com/v5.15/icons/youtube?style=brands)
+27. [Send icon](https://fontawesome.com/v5.15/icons/paper-plane?style=regular)
+28. [Back to top](https://fontawesome.com/v5.15/icons/arrow-up?style=solid)
+
+
+## Wireframes
+The wireframes that I have produced for War Heroes Remembered can be located [here](/workspace/war-heroes-remembered-ms2/assets/images/designs/wireframes). I wanted to keep the various pages to be simple, clean and relay the information clearly as a user would expect.
+I have created very basic wireframes using [Balsamiq](https://balsamiq.com/) and have as you have read above produced a more finalised version in [Adobe InDesign](https://www.adobe.com/uk/products/indesign.html). Using the Balsamiq app allowed me to do the rough layout before a more finalised version was produced in Adobe InDesign and then coded into GitPod.
+With keeping the layout clean and simple it will also allow me to focus on the JavaScript functions for the various pages. 
+* Home / index (which encompasses the about section) wireframes can be found [here](/workspace/war-heroes-remembered-ms2/assets/images/designs/wireframes/whr-wireframes-home.png)
+* Heroes original wireframes can be found [here](/workspace/war-heroes-remembered-ms2/assets/images/designs/wireframes/whr-wireframes-heroes-original.png)
+* Contact Us (which encompasses the maps section to find your hero) wireframes can be found [here](/workspace/war-heroes-remembered-ms2/assets/images/designs/wireframes/whr-wireframes-contact.png)
+### Changes to wireframes
+Since the original wireframe designs were completed and after my first Mentoring Session, I decided to add a bit more JavaScript by adding a toggler to the bottom of the Heroes page so that this goes onto a second page with the same layout, but different Heroes. This is just to add a bit more interactivity to this page. 
+* The changed Heroes wireframes can be found [here](/workspace/war-heroes-remembered-ms2/assets/images/designs/wireframes/whr-heroes1-wireframes.png) and [here](/workspace/war-heroes-remembered-ms2/assets/images/designs/wireframes/whr-heroes2-wireframes.png).
+All other wireframes have remained the same and this has allowed me to be able to advance with the site to the building and testing stages, as well as to document my results in this very README file.
+
+
+## Features
+In this section I will briefly highlight some of the features that my website contains, why I have added these as well as the future developments, improvements or additional information or images that I would like to do in order to keep content relevant, attract new users / visitors and keep existing users / visitors returning. I believe in doing this I will be able to take this website and make it a site users are happy to return to and want to return to.
+* All pages are similar in layout and are visually appealing and clean to view and enables the user to find the content that the user is looking at or looking for.
+* Like my Go Tennis System Milestone 1 Project I have again incorporated the About Us into the home page at the bottom. This is to give the user a clear idea of what it is I am trying to achieve with my website, and why they should continue further with their journey on my page. The about section can easily be accessed in my nav bar as there is a link that takes you down to this section.
+* In the nav bar I’ve enabled the War Heroes Remembered name to be clicked on as a link to easily take the user/visitor back to the home page of my website making this user-friendly.
+* The nav bar allows you to quickly jump to the selected page that has been clicked by the user/visitor. This also shows the active link as well as allowing the user to see this is a link as when hovered over the link goes a different colour. This is again to give the user/visitor a better user experience.
+* The nav bar collapses to the hamburger or as font awesome call it bars icon. This allows the users to be able to navigate on any small sized device like a phone or tablet they are using.
+* The back to the top has been added in to enable the user to have a better user experience on all pages, this is particularly handy when it comes to smaller devices, but should also be made use of on larger screens like I do when I test and view my website.
+* The maps section allows users to see where the locations of the heroes are as remembered or buried.
+* The contact form is there for users to interact and get in touch. This has been specifically linked to my Gmail address that I created for this project and enable the users’ messages to receive a more personal reply rather than coming from a no reply email or one that may potentially auto spam itself in the users junk folder.
+* This website is responsive across all viewports and is able to work on all devices, although there maybe some devices that have restrictions where JavaScript comes into play, although I shouldn’t have thought that would be the case in this day and age.
+* Elements are interactive to engage the users to visit and interact with these.
+* Included for the users of my website is another way of interacting and staying informed via the icons at the bottom in the footer, these take you directly to my social media platforms and allow the users to also get in contact, stay informed as well as provide some more interaction. Users interacting with my social media platforms are also able to upload photos and add text of other Heroes they would like to see on both my website and social media and are therefore contributing to the success or making sure we remember as many War Heroes as possible. By contributing to the social media platforms this allows a speedy way of being able to get more information and data quickly to enable more uploads to my website, but this also helps give the user a sense of contributing and being part of my website / community / family. This enables the user to participate and have their actions appreciated and acknowledged.
 
 
 
