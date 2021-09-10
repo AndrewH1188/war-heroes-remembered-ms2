@@ -48,6 +48,76 @@ My website has been designed to be responsive across all platforms. The original
 This website has been designed by myself Andrew Harding because of my interest in military history, as well as in finding out relatives that made the ultimate sacrifice by playing their part in the First World War. I hope that in using this website the users are able to learn about some of the selected heroes that took part as well as potentially trace someone who may be their relative or even someone who crossed paths or was in the same unit as their relative(s).
 
 
+## User stories 
+* I would like the new/first time user to achieve their goals when visiting my website, I would expect my users to be historians and those interested in tracing their own war hero(es) using this site. 
+* I would like those using my website to gain an understanding of the history that we have to offer them and hope this sparks their curiosity to want to go on and learn further by being a returning user and expanding their knowledge on a subject that interests them.
+* I would like the new user or first time user to understand the reason this page has been created, as well as to learn a bit more about the Heroes listed that took part in World War One.
+* As a new user or first time user I would like them to understand that there are many other Heroes that also played their part in World War One (of which I’m sure they will) and that unfortunately it simply wasn’t possible to list all of them as mentioned in the Welcome section on my home / about page.
+* I would like my users to take full advantage of the interactive elements that have been specifically placed in order to help them better navigate and use my website. I’m sure if the user is anything like me they will take full advantage of these.
+* I would like users to be able to discover the various age ranges of the heroes that took part and have a desire to be able to go on further to learn more.
+* I would like to use the memorials and cemeteries locations on the map to be able to paint a picture of those that were in the area at the time and see just how many heroes are remembered/buried in different locations from the country where they were originally born and grew up in.
+
+
+#### As a first time user I would expect the questions asked would be:
+* What does this site have to offer me?
+* Is the content relevant to what I am looking for?
+* Does this site achieve my aim of what I am looking for?
+* Does this site inform me enough to encourage me to want to learn more and do my own research into my relatives?
+* Why should I use this website over any of the many other websites?
+* Is this something that because of the design, layout, interaction and cleanliness of the site I will be returning to?
+* Is the information that I am viewing/reading accurate?
+* Is the information as up to date as it can possibly be?
+* Is the information enough, too little or too much?
+
+
+#### Returning Visitor Goals 
+* As a returning user/visitor I would like to see updated content with more Heroes added.
+* I would like the same level of clarity, information and clean layout as there is currently.
+* With more Heroes added I would like to see more locations added to the map so that I can visit these.
+* I would like to see more information regarding locations of where the heroes are remembered/buried added to this site.
+* I would like to be able to trace and find any other heroes that may have been in the same unit(s), location or fought alongside with at the same time as my relative. 
+
+
+#### As a returning user I would expect the questions asked would be:
+* Is the information helpful to me and what I am looking to achieve and how I would like to achieve this?
+* Have the Heroes section been added too?
+* Has the website been updated and refreshed with new content, information or pages?
+* Has the map been updated with the new locations?
+* Has a section been added for information on the locations?
+* Is the information that is currently there and the new information still of interest to me?
+* Am I able to achieve my goals and needs?
+* Am I able to learn more about the events before, during and after the War regarding the Heroes that were fortunate to return?
+
+
+#### Frequent User Goals
+* Again as mentioned in the returning user goals, I would like to see more content with more heroes added.
+* I would like to see more locations that relate to the heroes that have been added.
+* I would like to be able to get involved with this website and contribute towards it to help build it.
+
+
+#### As a frequent user I would expect the questions asked would be:
+* Is there a way in which I can contribute towards this site in the way of adding more heroes?
+* If there is a way that I can get involved and contribute how can I do this?
+* Is the site being maintained, looked after, updated and constantly improved so that users like me are able to keep using this website and the interactive features?
+
+
+#### User Goals
+The user goals that I would like War Heroes Remembered to provide to the user are:
+* To be able to find out the necessary information quickly, reliably and easily. This is what will keep users focused, and also returning for more.
+* There is the ability to find out about the heroes listed as well as the location of the memorials/cemeteries in which the heroes are remembered or are buried on the contact page at the top. 
+* With the map showcasing the memorial/cemeteries the user is able to see where the heroes are buried/remembered from anywhere in the world. In doing so this allows them to plan a visit or holiday.
+* With the added social media, this increases the user interaction and allows them to be able to continue their journey as well as upload other heroes and text for future updates to my website.
+* There is the ability other than social media for users to also make contact/interact with us by filling in their name, email and their enquiry or message.
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -154,7 +224,7 @@ All of the coordinates that I have added to my JavaScript Map file have been fou
 * [Helles Memorial](https://www.google.com/maps/place/Helles+Memorial/@40.0458333,26.176978,17z/data=!3m1!4b1!4m5!3m4!1s0x14b04c4c4365d56d:0x957f62af4e81104!8m2!3d40.0458125!4d26.1792157)
 40.04597, 26.17921
 * [Plymouth Naval Memorial](https://www.google.com/maps/place/Plymouth+Naval+Memorial/@50.3656944,-4.144452,471m/data=!3m2!1e3!4b1!4m5!3m4!1s0x486c93523afb10b5:0x812a02e710fad21e!8m2!3d50.365691!4d-4.1422633)
-50.36571, 4.14228 - Coordinates for the Map
+50.36571, 4.14228
 * [Menin Gate Memorial](https://www.google.com/maps/place/Menin+Gate/@50.8519971,2.8889386,466m/data=!3m1!1e3!4m5!3m4!1s0x47dccef80de49a41:0xbf9442beac718fb3!8m2!3d50.8519937!4d2.8911326)
  50.85217, 2.89107
 * [Canadian National Vimy Memorial](https://www.google.com/maps/place/Canadian+National+Vimy+Memorial/@50.3795947,2.7717794,471m/data=!3m2!1e3!4b1!4m5!3m4!1s0x47dd376aa65c325d:0xb819d1715a18b36b!8m2!3d50.3795913!4d2.7739734)
