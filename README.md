@@ -255,6 +255,95 @@ In this section I will briefly highlight some of the features that my website co
 * Included for the users of my website is another way of interacting and staying informed via the icons at the bottom in the footer, these take you directly to my social media platforms and allow the users to also get in contact, stay informed as well as provide some more interaction. Users interacting with my social media platforms are also able to upload photos and add text of other Heroes they would like to see on both my website and social media and are therefore contributing to the success or making sure we remember as many War Heroes as possible. By contributing to the social media platforms this allows a speedy way of being able to get more information and data quickly to enable more uploads to my website, but this also helps give the user a sense of contributing and being part of my website / community / family. This enables the user to participate and have their actions appreciated and acknowledged.
 
 
+### Existing features
+* The user / visitor is able to fill in their name and email on the contact form. The details that the user submits are sent to my [Google Gmail](https://www.google.com/gmail/) email address and this will allow me to be able to respond to their messages or enquiries.
+* With the design and layout most items are able to fit nicely when viewed on smaller screen devices. This has been achieved because of the way the site has been designed and with some elements using Media Queries to assist.
+* All links have the dark red hover colour to show users these are active working links.
+* The Facebook, Twitter and Instagram icons all link to the accounts/pages that I have specifically set up on the different social media platforms to that link to War Heroes Remembered. The only exception is the YouTube icon which links to the main YouTube page, as there isn’t an account/page set up on here for War Heroes Remembered.
+* Having the social media there that links to my Facebook, Twitter and Instagram pages/accounts allows the user to also interact with us here, uploading and contributing their heroes and information about them.
+* My website has incorporated favicon of a poppy on a black background which displays in the viewers browser tab, this has been added to give it a more professional look and help with the finished feel of my overall site.
+* The visitor/user is able to see on the map where the listed heroes are buried/remembered and this enables them to be able to visit these locations if they would like to or are able to.
+* A back to the top has been added in order to further assist and help the user, especially when they are using a smaller screen device.
+
+
+### Future features
+* I would like to add a way in which the user can submit photos and text in order to help add more War Heroes to this site and make the lists of those that fought grow. This would not only allow everyone to hopefully be included and remembered, but inclusive of all countries that helped fight for freedom and all heroes that helped secure this.
+* I would like to be able to add more heroes onto this site and expand it further. To achieve this I would need to research more about other heroes and load these into my website in the same style and layout as is currently displaying.
+* With the new additions I would like to add new categories, in order not only to separate the heroes into years that they were killed, but the countries they were from in order to keep everything neat, tidy and easy to find for the user.
+* To help the user potentially find a relative of theirs as the site grows I would like to add a search bar at the top so the user can search the site easily, without the need to have to search each page manually.
+* Where the need for more than one page occurs have the heroes span over multiple pages.
+* On the pages where records go over more than 1 page when the user clicks the number at the bottom have the page automatically scroll to the top of the new page that they have clicked on.
+* I would like to not only focus on the unfortunate people that didn’t return but also those that did as they are all heroes as well.
+* I would like to branch from World War One into World War Two but would need to separate this in the menu bar with a new link, then from there like the additions to the World War One section categorise this into the relevant sections, based on where they fought, and if they were the fortunate ones to live to tell the tale of the horrors they unfortunately witnessed.
+* Branching out and mentioning sections I would like to have for example Battle of Tannenberg, Battle Of Cambrai (1917), German Spring Offensives On The Western Front (1918), Battle Of The Somme (1916) which are some of the key dates/campaigns in World War One, to Operation Torch (November 1942), Siege Of Leningrad (September 1941 To January 1942), Battle Of The Atlantic (September 1939 To May 1945), Battle Of Britain (July 1940 To October 1940), Operation Barbarossa (June To December 1941) some of the key battles/campaigns of World War Two. With these sections/categories, I could put the Heroes and History in which would help people that know about their relatives and the campaigns/dates to help the user better find their Heroes easily.
+* I would like to add a section with all the FAQ or Frequently Asked Questions, this is in order to again facilitate the user and give them a better experience whilst saving them time filling out the contact box and waiting for a reply to their question.
+* I would like to add the ability to trace and find other heroes that were in the same unit(s), location or fought alongside with my relatives as well as the other heroes. I would like to see if they have stories or more to tell about the conditions, life, moral, etc.
+* If I am able to find any photos of those that sadly I was unable to find I would like to be able to add these in to make sure that all heroes have a face to their name.
+
+
+## Technologies and Languages Used:
+I have been able to build this fully functioning website using the below languages, technologies, libraries, tools, programs other resources as well as have the help from Social Media as listed.
+
+
+## Languages:
+* [HTML5](https://en.wikipedia.org/wiki/HTML5)
+* [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+* [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
+
+
+## Libraries Frameworks and online resources:
+* [Bootstrap 4.6.0:](https://getbootstrap.com/docs/4.6/getting-started/introduction/)
+ Bootstrap was used to help set the navigation bar.
+* Google Chrome Dev Tools: For testing purposes and to see why elements are not working as expected. Dev tools allowed me to make changes to my code in the browser to see a live representation of the website with the changes / amends that have been made.
+* Lighthouse: Was used for testing website performance, check for Performance, Accessibility, Best Practices and Search Engine Optimization (SEO). I have tested as before on my Go Tennis System the different categories mentioned above on both mobile applications and computer applications and have loaded the screenshots of the results in the testing section.
+* [Google Fonts:](https://fonts.google.com/) Google Fonts was used to find a suitable font as well as to import this font into my website. The font that I decided to use as it was clean, stylish and fitting is called Poppins which is displayed on all pages on my website / throughout the project. This is to keep styles consistent throughout my website. 
+* [Font Awesome:](https://fontawesome.com/) I have used fewer icons this time as I didn’t think that too many were appropriate given the subject of the site. The Font Awesome Icons that I have used have been listed below:
+ * [Hamburger Bars icon](https://fontawesome.com/v5.15/icons/bars?style=solid)
+ * [Facebook icon](https://fontawesome.com/v5.15/icons/facebook-f?style=brands)
+ * [Twitter icon](https://fontawesome.com/v5.15/icons/twitter?style=brands)
+ * [Instagram icon](https://fontawesome.com/v5.15/icons/instagram?style=brands)
+ * [YouTube icon](https://fontawesome.com/v5.15/icons/youtube?style=brands)
+ * [Arrow Up icon](https://fontawesome.com/v5.15/icons/arrow-up?style=solid)
+ * [Send icon](https://fontawesome.com/v5.15/icons/paper-plane?style=regular)
+* [W3C HTML-validator:](https://validator.w3.org/) used to find errors in my HTML code as well as implement the suggestions to fix these.
+* [Jigsaw:](https://jigsaw.w3.org/css-validator/) used to find errors in my CSS code as well as implement the suggestions to fix these.
+* [JS Hint](https://jshint.com/) for my JavaScript to see if there are any errors and use the feedback to fix these.
+* [Tiny PNG](https://tinypng.com/) Again my friend Tiny PNG was used to compress the file size of all images without losing any of the original image quality or distorting the images in any way. This is so that when the pages are loaded the images do not slow down the loading speed and therefore make this user-friendly, as well as reduces the bounce rate of users viewing and clicking off the pages.
+* [Google Maps API](https://developers.google.com/maps) I used the Google Maps API in order to add a map to my contact page with the markers and clusters in the areas that required these.
+* [EmailJS](https://www.emailjs.com/) I used EmailJS in order to hook up my contact section to my email in order to receive feedback, questions or submissions from the viewers that have interacted with my site.
+* [Material Design for Bootstrap MDB](https://mdbootstrap.com/) was used for [scroll back to top](https://mdbootstrap.com/docs/standard/extended/back-to-top/) to enable the user to effortlessly scroll back up to the top of the page without having to do this the long way.
+
+
+## Tools:
+* [GitPod](https://www.gitpod.io/) was used to write my code as well as paste in code from Bootstrap. In GitPod I was also able to amend the code from Bootstrap as well as create and style code in both HTML and CSS. I was able to add images to the folders that I created, as well as files to contain the code. In GitPod I was also able to (using python3 -m http.server) view my web page in the browser in a separate tab, allowing me to use the inspect section in Google to inspect elements and see what worked, as well as what didn’t work and amend this accordingly.
+* [Git](https://git-scm.com/) Git was used for version control having set up the GitPod Terminal to commit and push saved changes and commits to GitHub.
+* [GitHub:](https://github.com/) GitHub was used to store the saved changes from my project after being pushed from Git.
+* [GitHub Pages](https://pages.github.com/)was used to deploy my website and make this live for all to explore and use.
+* [Balsamiq:](https://balsamiq.com/) was used to create the initial [wireframes](assets/images/designs/wireframes) and amend them to reflect the new feature(s).
+
+
+## Programmes:
+* [Adobe InDesign](https://www.adobe.com/uk/products/indesign.html) Adobe InDesign was used to create the design mock up of the site using colours, images, setting the text and layout. I used Adobe InDesign to do this so that I had something that I could use as a final and a visual as to how the final would look. I exported the final design as an Adobe Acrobat PDF and as a jpg. I have used the jpg format as there was an error/problem with the PDF showing/displaying in GitPod when I loaded this and the Wireframes that were created in Balsamiq and also exported to Adobe Acrobat PDF
+* [Adobe Illustrator](https://www.adobe.com/uk/products/illustrator.html) Adobe Illustrator was used to create the poppy favicon and export this to a jpg so that this could be loaded into GitPod and display in the tab next to the War Heroes Remembered document name.
+* [Adobe Photoshop](https://www.adobe.com/uk/products/photoshop.html) Adobe Photoshop was used to scale the Hero images as well as the photos of the Heroes, or ones that were used if the Heroes didn’t have a photo of the Hero.
+
+
+## Other Resources:
+* [W3 Validator](https://validator.w3.org/) to check for any HTML errors and use the feedback to resolve / fix these. 
+* [W3 Css Validator(https://jigsaw.w3.org/css-validator/) to check for any CSS errors and use the feedback to resolve /fix these. 
+* [JS Hint](https://jshint.com/) for my JavaScript to see if there are any errors and use the feedback to fix these.
+* [Code Institute](https://codeinstitute.net/) and the learning that I have completed so far with them. This has enabled me to put together and complete my project.
+* [Code Institute](https://codeinstitute.net/) I have re visited video tutorials that the Code Institute have provided regarding the different JavaScript sections. The main video tutorials were with Rosie’s Resume and adding the JavaScript elements with regard to the map and EmailJS to help me through the setup and getting mine fully functional.
+* [Stack Overflow](https://stackoverflow.com/) I have used Stack Overflow in order to search for answers to my questions like why I keep getting an error with the JavaScript regarding the initMap in the console. I have looked to see if there are any suggestions on how to resolve this and other JavaScript areas that may be experiencing errors.
+* [Am I Responsive](http://ami.responsivedesign.is/) was used for the screenshot of the mock up which is at the top in my README.md file and also to show off my site my different social media platforms. 
+* [Google Chrome Developer Tools](https://developer.chrome.com/docs/devtools/) was used to test sizes, check responsiveness and view the layouts as well as debug errors and problems I encountered along the way.
+* [Prettier.io](https://prettier.io/) was used to make my CSS look neat, tidy and easier to follow / read.
+* [Grammarly](https://www.grammarly.com/) was used for checking the spelling and grammar for the content of my website.
+* [Onlinespellcheck.com](https://www.online-spellcheck.com/) I have run my README.md through here to check for any spelling or grammar errors.
+
+
+### Social Media:
+I set up a group on [Facebook](https://en-gb.facebook.com/) called [War Heroes Remembered](https://www.facebook.com/groups/911836479678983/) so that the Facebook icon in the footer had somewhere to link too. I also set up a [Twitter](https://twitter.com/) page [@war_remembered](https://twitter.com/WarRememembered) as well as an [Instagram](https://www.instagram.com/) page [war_heroes_remembered](https://www.instagram.com/war_heroes_remembered/) so that these icons had somewhere to link too. I wouldn’t have thought nor believed that where would be many people following or liking the content that is currently on my Instagram page, but as there are people every day following and liking my content and page I have decided that I will continue to work on this after my Milestone Project submission and after I have finished the course adding content as I am grateful for the support that I have been receiving on a daily basis. With the icon for YouTube I have left this linking to the home page of [YouTube](https://www.youtube.com/) as I haven’t set up an account and don’t have any videos, although there is nothing stopping me from doing this in future as part of this project going forwards in the future. 
 
 
 
