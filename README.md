@@ -335,6 +335,7 @@ I have been able to build this fully functioning website using the below languag
 * [Code Institute](https://codeinstitute.net/) and the learning that I have completed so far with them. This has enabled me to put together and complete my project.
 * [Code Institute](https://codeinstitute.net/) I have re visited video tutorials that the Code Institute have provided regarding the different JavaScript sections. The main video tutorials were with Rosie’s Resume and adding the JavaScript elements with regard to the map and EmailJS to help me through the setup and getting mine fully functional.
 * [Stack Overflow](https://stackoverflow.com/) I have used Stack Overflow in order to search for answers to my questions like why I keep getting an error with the JavaScript regarding the initMap in the console. I have looked to see if there are any suggestions on how to resolve this and other JavaScript areas that may be experiencing errors.
+* [Ahmad Awais](https://codepen.io/ahmadawais/pen/NQdWQx?editors=1010) I used this to look and see how they managed to lay out the markers with the location names. I used their style for the var locations and did the same for mine. When the Marker is clicked the Hero location and name will show.  
 * [Am I Responsive](http://ami.responsivedesign.is/) was used for the screenshot of the mock up which is at the top in my README.md file and also to show off my site my different social media platforms. 
 * [Google Chrome Developer Tools](https://developer.chrome.com/docs/devtools/) was used to test sizes, check responsiveness and view the layouts as well as debug errors and problems I encountered along the way.
 * [Prettier.io](https://prettier.io/) was used to make my CSS look neat, tidy and easier to follow / read.
@@ -463,6 +464,8 @@ All of the coordinates that I have added to my JavaScript Map file have been fou
 50.397976, 2.77402
 * [Thiepval Memorial Pier](https://www.google.com/maps/search/Thiepval+Memorial+Pier/@50.0514314,2.6847777,474m/data=!3m2!1e3!4b1)
 50.05069, 2.68577
+* [Huthwaite Cenotaph](https://www.google.com/maps/place/Huthwaite+Cemetery/@53.1274634,-1.2979897,17z/data=!3m1!4b1!4m5!3m4!1s0x48799722f970cdb3:0x6ec023c8a07d8d3c!8m2!3d53.1274602!4d-1.2957957)
+53.12764, -1.29581
 
 ##### Cemeteries:
 * [St Souplet British Cemetery France](https://www.google.com/maps/place/St+Souplet+British+Military+Cemetery/@50.0546909,3.5221946,17z/data=!3m1!4b1!4m5!3m4!1s0x47c284af4c8313ed:0x6a04169778f6722d!8m2!3d50.0546875!4d3.5243833)
@@ -527,6 +530,8 @@ Another returning thank you goes out to Jim Jenner and his wife Susie Jenner for
 Another recurring Thank you goes out to Stuart Crang at The Learning People Global. I discussed this and the other ideas for future Milestone Projects with him, he was excited, enthusiastic and supportive as always. I would also like to thank The Learning People Global who have also checked in to see how I am getting on and offer support as well as remind me they are also there for me supporting me.
 
 I would also like to thank the [Code Institute](https://codeinstitute.net/) for putting together the template in GitPod which I was able to use along with the Emmett abbreviation. I would also like to say Thank you for the superb course content that has enabled me to learn new skills, in doing so this has enabled me to complete my second Milestone Project (which came around quickly). Also, the Student Care team for their check-up calls to see if all is ok. I really appreciate this and it really helps to remind me that there is an enormous amount of support that is there pushing me for every success. I would also like to mention and thank Alexander in Student Care for his help and support with this and answering the questions that I had regarding this project, as well as for sending through some extra resources in the way of videos to help me. It is very much appreciated and I thank you again for your help.
+
+I would like to say a huge thank you to Andrew at [Google](https://www.google.com/) for his help in assisting me to get the map to function. I was having issues with the map loading then every so often displaying an error and not loading on both my GitPod preview (having opened the port 8000 to view this in my browser) and on my final site. Working with Andrew and asking questions as well as providing the answers we were able to solve this issue. So, thank you again Andrew for your help, it is very much appreciated.
 
 Another huge thank you goes out to all those who have shared the information about the Heroes listed as this helped me to add text and images (where available) to each of the 16 that played their part and cut short their lives for us. Without your help I wouldn’t have had anything to be able to work with, so thank you again.
 
