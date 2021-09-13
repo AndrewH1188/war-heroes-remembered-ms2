@@ -1,12 +1,17 @@
 let map;
 
 function initMap() {
-    var map = new google.maps.Map(document.getElementById("map"), {
-       // This is for the Mitcham War Memorial - This is one of the memorials where Frederick is remembered.
-        center: {lat: 51.40219, lng: -0.16890},
-        zoom: 10,
-    });
+  map = new google.maps.Map(document.getElementById("map"), {
+    center: { lat: 51.40219, lng: -0.16890 },
+    zoom: 11,
+  });
 }
+
+// Searchbox
+
+const input = document.getElementById("map")
+const searchBox = new google.maps.places.searchBox(input);
+
 
 //Coordinates for the various memorials listed for the corrosponding Hero that will be marked on the map.
 var labels = "Memorials";
