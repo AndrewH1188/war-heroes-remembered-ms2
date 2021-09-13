@@ -7,10 +7,9 @@ function initMap() {
   });
 }
 
-// Searchbox
 
-const input = document.getElementById("map")
-const searchBox = new google.maps.places.searchBox(input);
+
+
 
 
 //Coordinates for the various memorials listed for the corrosponding Hero that will be marked on the map.
