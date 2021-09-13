@@ -12,20 +12,20 @@
 }
 
 
-.nav-link{
+.nav-link {
     color: #fff;
 }
 
-a:hover { 
+a:hover {
     color: #d20a11;
 }
 
-.active { 
+.active {
     color: #ceb7a5;
 }
 
-.navbar-toggler { 
-    color:#fff;
+.navbar-toggler {
+    color: #fff;
 }
 
 .navbar-toggler:hover {
@@ -84,13 +84,13 @@ a:hover {
     right: 20px;
     display: none;
     scroll-behavior: smooth;
-  }
-  
+}
+
 
 /*--------------------------------------------- Heroes Pages */
 
 .remembering-hero {
-    width: 100%; 
+    width: 100%;
     padding-bottom: 50px;
 }
 
@@ -132,7 +132,7 @@ a:hover {
 }
 
 a {
-    color:#fff;
+    color: #fff;
 }
 
 .btn-heroes-pages {
@@ -148,10 +148,6 @@ button.btn-heroes-pages.active {
     background-color: #ceb7a5;
     border-color: transparent;
 }
-
-
-
-
 
 
 /*--------------------------------------------- Contact Page */
@@ -223,7 +219,7 @@ button.btn-heroes-pages.active {
     padding-right: 25%;
 }
 
-.message-area { 
+.message-area {
     min-height: 380px;
     min-width: 640px;
     resize: none;
@@ -257,7 +253,7 @@ button.btn-heroes-pages.active {
     background-color: black;
 }
 
-.social-text{
+.social-text {
     color: #fff;
     text-align: center;
     font-size: large;
@@ -271,7 +267,7 @@ button.btn-heroes-pages.active {
     font-size: large;
 }
 
-.sm-icons a:hover { 
+.sm-icons a:hover {
     color: #d20a11;
 }
 
@@ -302,127 +298,87 @@ p {
 
 
 
-
-
-
-
-
-
 /*--------------------------------------------- Media Queries */
 
-/*
-@media (max-width: 992px) { 
-    .nav-item {
-        justify-content: flex-end;
- 
-    }
-    }
 
-
-
-/*--------------------------------------------- Media Queries */
-
-/* Heroes */ /*-----------------THIS NEEDS COMPLETING */
-@media (max-width: 768px) { 
-    .hero-info { 
-        padding-left: 15%;
-        width: 90%;
-    }
-    }
-    
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*---------------------------- Computer larger screen size */ 
+/*---------------- Computer larger screen size */
 
 @media (max-width: 1200px) {
-    .message-area { 
+    .message-area {
         min-height: 380px;
         max-width: 1000px;
         padding: 0;
     }
-
 }
 
 
-/*---------------------------- Computer medium screen size */ 
+/*---------------- Computer medium screen size */
 
-@media (max-width: 992px) { 
-    .message-area { 
-    min-height: 380px;
-    min-width: 202px;
-    padding: 0;
+@media (max-width: 992px) {
+    .message-area {
+        min-height: 380px;
+        min-width: 202px;
+        padding: 0;
     }
 
-.navbar-toggler { 
+    .navbar-toggler {
         margin-left: 340px;
     }
 }
 
 
-/*---------------------------- Iphone and surface duo */
-@media (max-width: 768px) { 
-    .message-area { 
-    min-height: 380px;
-    min-width: 382px;
-    padding: 0;
+/*---------------- iPhone and Surface Duo */
+
+@media (max-width: 768px) {
+    .message-area {
+        min-height: 380px;
+        min-width: 382px;
+        padding: 0;
+    }
+
+    .navbar-brand {
+        font-size: larger;
+        text-align: center;
+    }
+
+    .navbar-toggler {
+        margin-left: 10px;
+    }
+
+    .button {
+        padding-left: 35%;
+    }
+
+    .hero-info {
+        width: 85%;
+    }
+
+    .hero-text {
+        padding-bottom: 60px;
+    }
+
+    .contact-header {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .hero-info {
+        padding-left: 15%;
+        width: 90%;
+    }
 }
 
-.navbar-brand { 
-    font-size: larger;
-    text-align: center;
-}
 
-.navbar-toggler { 
-    margin-left: 10px;
-}
-
-.button { 
-    padding-left: 35%;
-}
-
-.hero-info { 
-    width: 85%;
-}
-
-.hero-text {
-    padding-bottom: 60px;
-}
-
-.contact-header {
-    padding-left: 15px;
-    padding-right: 15px;
-}
-}
-
-
-
-/*---------------------------- Galaxy Fold */
+/*---------------- Galaxy Fold */
 
 @media (max-width: 576px) {
-.message-area { 
-    min-height: 380px;
-    min-width: 20px;
-    padding: 0;
-}
+    .message-area {
+        min-height: 380px;
+        min-width: 20px;
+        padding: 0;
+    }
 
-.button {
-    padding-left: 22%;
-}
+    .button {
+        padding-left: 22%;
+    }
 }
