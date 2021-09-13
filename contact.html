@@ -12,14 +12,13 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="icon" href="assets/images/whr-favicon.jpg">
-  <script async
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAOYo3w5G-GuRPol6AelAUaUtsSZ3tpbuk&libraries=places&callback=initMap">
+  <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js">
   </script>
+  <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAOYo3w5G-GuRPol6AelAUaUtsSZ3tpbuk"></script>
   <title>War Heroes Remembered | Contact</title>
 </head>
 
-<body>
-
+<body onload="initMap()">
   <nav class="navbar navbar-expand-lg">
     <a class="navbar-brand" href="index.html">War Heroes Remembered</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
@@ -49,111 +48,83 @@
   <img class="contact-hero" src="assets/images/poppy-crosses.jpg"
     alt="Wooden crosses with poppies row on row in the grass">
   <section>
-   <p class="contact-header">Find your War Hero or Local Memorial</p>
-    <!--<input> searchBox --> 
+    <p class="contact-header">Find your War Hero or Local Memorial</p>
+    <!--<input> searchBox -->
     <div id="map"></div>
-
-   </section>
-
-
-
-
-
-
-
-    <p class="contact-text">If you would like to find out where to find your nearest memorial or Common Wealth War
-      Graves,
-      or visit the locations of the heroes mentioned please use our map with the markers above.
-    </p>
-
-    <img class="poppies-contact-page" src="assets/images/poppy-field.jpg">
-
-
-
-
-
+  </section>
+  <p class="contact-text">If you would like to find out where to find your nearest memorial or Common Wealth War
+    Graves,
+    or visit the locations of the heroes mentioned please use our map with the markers above.
+  </p>
+  <img class="poppies-contact-page" src="assets/images/poppy-field.jpg">
+  <section>
+    <p class="contact-us-header">Contact Us</p>
+    <p class="contact-text">If you would like to get in touch with us please fill in the form below.
+      Thank you and we look forward to hearing from you.</p>
+  </section>
+  <form class="form">
+    <div class="form-row">
+      <div class="form-group col-md-6">
+        <label for="name">Name</label>
+        <input type="text" class="form-control" id="fullname" required>
+      </div>
+      <div class="form-group col-md-6">
+        <label for="email">Email Address</label>
+        <input type="text" class="form-control" id="emailaddress" required>
+      </div>
+    </div>
+    <div>
+      <textarea class="message-area" required></textarea>
+    </div>
+    <div class="button">
+      <button onclick="myFunction()" class="send-button" id="send">Send &nbsp;<i
+          class="far fa-paper-plane"></i></button>
+    </div>
+  </form>
+  <!-- The code here for the back to top button has been taken from Material Design for Bootstrap (MDB) v5 & v4 -->
+  <button type="button" class="btn btn-danger btn-floating btn-lg" id="btn-back-to-top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+  <footer class="footer-bg">
+    <p class="social-text">Stay connected with us:</p>
+    <ul class="sm-icons">
+      <li class="sm-icons list-inline-item">
+        <a href="https://www.facebook.com/groups/911836479678983/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <span class="sr-only">Facebook</span>
+      </li>
+      <li class="sm-icons list-inline-item">
+        <a href="https://www.instagram.com/war_heroes_remembered/" target="_blank"><i class="fab fa-instagram"></i></a>
+        <span class="sr-only">Instagram</span>
+      </li>
+      <li class="sm-icons list-inline-item">
+        <a href="https://twitter.com/WarRemembered" target="_blank"><i class="fab fa-twitter"></i></a>
+        <span class="sr-only">Twitter</span>
+      </li>
+      <li class="sm-icons list-inline-item">
+        <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
+        <span class="sr-only">YouTube</span>
+      </li>
+    </ul>
     <section>
-      <p class="contact-us-header">Contact Us</p>
-      <p class="contact-text">If you would like to get in touch with us please fill in the form below.
-        Thank you and we look forward to hearing from you.</p>
-
+      <p class="remember">We will remember them</p>
+      <p class="credit">Website designed by Andrew Harding</p>
     </section>
-
-
-
-
-
-
-
-
-
-    <form class="form">
-      <div class="form-row">
-        <div class="form-group col-md-6">
-          <label for="name">Name</label>
-          <input type="text" class="form-control" id="fullname" required>
-        </div>
-        <div class="form-group col-md-6">
-          <label for="email">Email Address</label>
-          <input type="text" class="form-control" id="emailaddress" required>
-        </div>
-      </div>
-      <div>
-        <textarea class="message-area" required></textarea>
-      </div>
-      <div class="button">
-        <button onclick="myFunction()" class="send-button" id="send">Send &nbsp;<i
-            class="far fa-paper-plane"></i></button>
-      </div>
-    </form>
-
-    <!-- The code here for the back to top button has been taken from Material Design for Bootstrap (MDB) v5 & v4 -->
-    <button type="button" class="btn btn-danger btn-floating btn-lg" id="btn-back-to-top">
-      <i class="fas fa-arrow-up"></i>
-    </button>
-
-    <footer class="footer-bg">
-      <p class="social-text">Stay connected with us:</p>
-      <ul class="sm-icons">
-        <li class="sm-icons list-inline-item">
-          <a href="https://www.facebook.com/groups/911836479678983/" target="_blank"><i
-              class="fab fa-facebook-f"></i></a>
-          <span class="sr-only">Facebook</span>
-        </li>
-        <li class="sm-icons list-inline-item">
-          <a href="https://www.instagram.com/war_heroes_remembered/" target="_blank"><i
-              class="fab fa-instagram"></i></a>
-          <span class="sr-only">Instagram</span>
-        </li>
-        <li class="sm-icons list-inline-item">
-          <a href="https://twitter.com/WarRemembered" target="_blank"><i class="fab fa-twitter"></i></a>
-          <span class="sr-only">Twitter</span>
-        </li>
-        <li class="sm-icons list-inline-item">
-          <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
-          <span class="sr-only">YouTube</span>
-        </li>
-      </ul>
-      <section>
-        <p class="remember">We will remember them</p>
-        <p class="credit">Website designed by Andrew Harding</p>
-      </section>
-    </footer>
-    <script src="https://kit.fontawesome.com/14fbbe1178.js" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
-    </script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
-    </script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
-    <script src="assets/js/map.js"></script>
-    <script src="assets/js/top-button.js"></script>
-    <script src="assets/js/email.js"></script>
-    <script src="assets/js/send-button.js"></script>
+  </footer>
+  <script src="https://kit.fontawesome.com/14fbbe1178.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+  </script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+  </script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+  <script src="assets/js/map.js"></script>
+  <script src="assets/js/top-button.js"></script>
+  <script src="assets/js/email.js"></script>
+  <script src="assets/js/send-button.js"></script>
 </body>
 
 </html>
