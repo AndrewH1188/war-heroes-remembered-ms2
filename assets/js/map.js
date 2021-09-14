@@ -19,11 +19,11 @@ var markers = [
       "lat": '51.402170802739015', 
       "lng": '-0.16887147356538348',
       "description": 'Private Frederick Spearink <br> Mitcham War Memorial'
-  },
+  }, 
   {
     "title": 'Private Frederick Spearink',
-    "lat": '40.046079676342764', 
-    "lng": '26.179177425981795',
+    "lat": '40.046120999996475', 
+    "lng": '26.17819112174944',
     "description": 'Private Frederick Spearink <br> Helles Memorial' 
   },
   {
@@ -52,8 +52,8 @@ var markers = [
   }, 
   {
     "title": 'Private Thomas Phillips',
-    "lat": '50.852156240636816',
-    "lng": '2.89112186873956',
+    "lat": '50.85737427113968',
+    "lng": '2.8807790117630168',
     "description": 'Private Thomas Phillips <br> Menin Gate Memorial'
   },
   {
@@ -76,8 +76,8 @@ var markers = [
   },
   {
     "title": 'Captain Ronald Moorhouse',
-    "lat": '50.88730239126956',
-    "lng": '2.998478924563846',
+    "lat": '50.887139952689154',
+    "lng": '2.9985754842845584',
     "description": 'Captain Ronald Moorhouse <br> Tyne Cot Memorial'
   },
   {
@@ -118,8 +118,8 @@ var markers = [
   },
   {
     "title": 'Rifleman Henry William Longman',
-    "lat": '50.88730239126956',
-    "lng": '2.998478924563846',
+    "lat": '50.88658494994486',
+    "lng": '2.998103415514772',
     "description": 'Rifleman Henry William Longman <br> Tyne Cot Memorial'
   },
   ];
