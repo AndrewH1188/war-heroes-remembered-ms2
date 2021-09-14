@@ -221,10 +221,9 @@ button.btn-heroes-pages.active {
 
 .message-area {
     min-height: 380px;
-    min-width: 640px;
+    min-width: 100%;
     resize: none;
-    padding-left: 25%;
-    padding-right: 25%;
+    margin-right: 25%;
 }
 
 .send-button {
@@ -306,7 +305,7 @@ p {
 @media (max-width: 1200px) {
     .message-area {
         min-height: 380px;
-        max-width: 1000px;
+        min-width: 100%;
         padding: 0;
     }
 }
@@ -317,7 +316,7 @@ p {
 @media (max-width: 992px) {
     .message-area {
         min-height: 380px;
-        min-width: 202px;
+        min-width: 100%;
         padding: 0;
     }
 
@@ -346,11 +345,12 @@ p {
     }
 
     .button {
-        padding-left: 35%;
+        padding-left: 30%;
     }
 
     .hero-info {
-        width: 85%;
+        width: 90%;
+        padding-left: 15%;
     }
 
     .hero-text {
@@ -361,11 +361,6 @@ p {
         padding-left: 15px;
         padding-right: 15px;
     }
-
-    .hero-info {
-        padding-left: 15%;
-        width: 90%;
-    }
 }
 
 
@@ -374,7 +369,7 @@ p {
 @media (max-width: 576px) {
     .message-area {
         min-height: 380px;
-        min-width: 20px;
+        min-width: 100%;
         padding: 0;
     }
 
