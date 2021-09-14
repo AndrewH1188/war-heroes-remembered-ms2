@@ -1,3 +1,5 @@
+// Complpeted with help from Sheryl and Michael in Tutor Support as well as https://www.aspsnippets.com/Articles/Google-Maps-API-V3-Add-multiple-markers-with-InfoWindow-to-Google-Map.aspx
+
 function LoadMap() {
   const cemetery = { lat: 50.05484, lng: 3.52440 };
   const map = new google.maps.Map(document.getElementById("map"), {
@@ -110,8 +112,8 @@ var markers = [
   },
   {
     "title": 'Lance Corporal Norman Frank Ewart Cole',
-    "lat": '50.05252071122409',
-    "lng": '2.687815630628548',
+    "lat": '50.05309632492973',
+    "lng": '2.687876256950335',
     "description": 'Lance Corporal Norman Frank Ewart Cole <br> Thiepval Memorial Pier'
   },
   {
