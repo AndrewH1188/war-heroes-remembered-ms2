@@ -16,9 +16,18 @@
   </script>
   <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAOYo3w5G-GuRPol6AelAUaUtsSZ3tpbuk"></script>
   <title>War Heroes Remembered | Contact</title>
+
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
+</script>
+<script type="text/javascript">
+(function(){
+emailjs.init("user_eyQfIECw8qjrOGGzgtguK");
+//emailjs.send("service_5dblp87","template_nbqpspj";
+})();
+</script>
 </head>
 
-<body onload="initMap()">
+<body onload="LoadMap()">
   <nav class="navbar navbar-expand-lg">
     <a class="navbar-brand" href="index.html">War Heroes Remembered</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
@@ -49,7 +58,6 @@
     alt="Wooden crosses with poppies row on row in the grass">
   <section>
     <p class="contact-header">Find your War Hero or Local Memorial</p>
-    <!--<input> searchBox -->
     <div id="map"></div>
   </section>
   <p class="contact-text">If you would like to find out where to find your nearest memorial or Common Wealth War
@@ -76,8 +84,8 @@
     <div>
       <textarea class="message-area" required></textarea>
     </div>
-    <div class="button">
-      <button onclick="myFunction()" class="send-button" id="send">Send &nbsp;<i
+    <div class="button"  id="send">
+      <button onclick="myFunction()" class="send-button">Send &nbsp;<i
           class="far fa-paper-plane"></i></button>
     </div>
   </form>
