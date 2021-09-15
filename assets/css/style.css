@@ -361,6 +361,10 @@ p {
         padding-left: 15px;
         padding-right: 15px;
     }
+
+    #map {
+        min-width: fit-content;
+    }
 }
 
 
