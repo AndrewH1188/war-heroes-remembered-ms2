@@ -387,13 +387,13 @@ p {
     }
 
     .navbar-brand {
-        font-size: x-small;
+        font-size: medium;
         text-align: center;
     }
 
     .navbar-toggler {
         margin-left: 20px;
-        font-size: x-small;
+        font-size: medium;
     }
 
     .button {
