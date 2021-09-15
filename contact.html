@@ -12,19 +12,17 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="icon" href="assets/images/whr-favicon.jpg">
-  <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js">
-  </script>
   <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAOYo3w5G-GuRPol6AelAUaUtsSZ3tpbuk"></script>
-  <title>War Heroes Remembered | Contact</title>
-
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
+  <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
 </script>
 <script type="text/javascript">
-(function(){
-emailjs.init("user_eyQfIECw8qjrOGGzgtguK");
-//emailjs.send("service_5dblp87","template_nbqpspj";
-})();
+   (function(){
+      emailjs.init("user_Vfp19QEaLXjBi2kGQpkTh");
+   })();
 </script>
+  <title>War Heroes Remembered | Contact</title>
+  
 </head>
 
 <body onload="LoadMap()">
@@ -70,7 +68,8 @@ emailjs.init("user_eyQfIECw8qjrOGGzgtguK");
     <p class="contact-text">If you would like to get in touch with us please fill in the form below.
       Thank you and we look forward to hearing from you.</p>
   </section>
-  <form class="form">
+  <section class="form">
+  <form onsubmit="return sendMail(this);">
     <div class="form-row">
       <div class="form-group col-md-6">
         <label for="name">Name</label>
@@ -82,13 +81,14 @@ emailjs.init("user_eyQfIECw8qjrOGGzgtguK");
       </div>
     </div>
     <div>
-      <textarea class="message-area" required></textarea>
+      <textarea name="enquirytype" class="form-control message-area" id="enquirytype" required></textarea>
     </div>
-    <div class="button"  id="send">
-      <button onclick="myFunction()" class="send-button">Send &nbsp;<i
+    <div class="button" id="send">
+      <button class="send-button" type="submit" value="Send">Send &nbsp;<i
           class="far fa-paper-plane"></i></button>
-    </div>
+          </div> 
   </form>
+</section>
   <!-- The code here for the back to top button has been taken from Material Design for Bootstrap (MDB) v5 & v4 -->
   <button type="button" class="btn btn-danger btn-floating btn-lg" id="btn-back-to-top">
     <i class="fas fa-arrow-up"></i>
@@ -128,11 +128,10 @@ emailjs.init("user_eyQfIECw8qjrOGGzgtguK");
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
   </script>
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
   <script src="assets/js/map.js"></script>
+  <script src="assets/js/sendEmail.js"></script>
   <script src="assets/js/top-button.js"></script>
-  <script src="assets/js/email.js"></script>
-  <script src="assets/js/send-button.js"></script>
+  <!--<script src="assets/js/send-button.js"></script> onclick="myFunction()"-->
 </body>
 
 </html>

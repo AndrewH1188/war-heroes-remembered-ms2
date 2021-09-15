@@ -52,8 +52,8 @@ var markers = [
   }, 
   {
     "title": 'Private Thomas Phillips',
-    "lat": '50.85737427113968',
-    "lng": '2.8807790117630168',
+    "lat": '50.851866340749275',
+    "lng": '2.8908868271336203',
     "description": 'Private Thomas Phillips <br> Menin Gate Memorial'
   },
   {
@@ -64,8 +64,8 @@ var markers = [
   },
   {
     "title": 'Lance Corporal Arthur Norman (Barney) Allen',
-    "lat": '50.852156240636816',
-    "lng": '2.89112186873956',
+    "lat": '50.85220907213556',
+    "lng": '2.8912626644448967',
     "description": 'Lance Corporal Arthur Norman (Barney) Allen <br> Menin Gate Memorial'
   },
   {
