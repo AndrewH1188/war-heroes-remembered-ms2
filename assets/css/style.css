@@ -136,15 +136,17 @@ a {
 }
 
 .btn-heroes-pages {
-    background-color: #acacac;
+    background-color: black;
+    border-color: transparent;
+    color: #fff;
+}
+
+button.btn-heroes-pages:hover {
+    background-color: #d20a11;
     border-color: transparent;
 }
 
-button.btn-heroes-pages.active {
-    background-color: #ce4040;
-}
-
-.btn-heroes-pages:hover {
+button.btn-heroes-pages:active {
     background-color: #ceb7a5;
     border-color: transparent;
 }
