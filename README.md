@@ -147,7 +147,7 @@ Incorporated int the Home page is the About section down near the bottom in orde
 
 The Heroes page as mentioned above features a second page of Heroes that is accessed from the first page. This is to add interaction and get the user engaging with the page a bit more, but also to enable them to keep discovering and learning along their journey throughout the page.
 
-The Contact Us page features the map at the top of the page and this allows the user to search for the heroes listed on the page grave sites or where they are remembered / commemorated on a memorial. By adding this it also allows for more interaction from the user as well as allowing them to potentially visit the site / location of the Hero listed. Also on the Contact Us page the user has the ability to message / contact at the bottom of the page. This has been linked to EmailJS which is linked to my email account that I have specifically set up to allow me to receive emails / messages that the user has sent. 
+The Contact Us page features the map at the top of the page and this allows the user to search for the heroes listed on the page grave sites or where they are remembered / commemorated on a memorial. By adding this it also allows for more interaction from the user as well as allowing them to potentially visit the site / location of the Hero listed. Also on the Contact Us page the user has the ability to message / contact at the bottom of the page. This has been linked to [EmailJS](https://www.emailjs.com/) which is linked to my email account that I have specifically set up to allow me to receive emails / messages that the user has sent. 
 
 Throughout the site using [Material Design for Bootstrap MDB](https://mdbootstrap.com/) there is the ability on whatever device the user is viewing my website on to be able to go back to the top of the page with a button that appears when they scroll down. As mentioned this has been done using [Material Design for Bootstrap MDB](https://mdbootstrap.com/docs/standard/extended/back-to-top/).
 
@@ -456,19 +456,22 @@ All of the coordinates that I have added to my JavaScript Map file have been fou
 51.402170802739015, -0.16887147356538348
 
 * [Helles Memorial](https://www.google.com/maps/place/Helles+Memorial/@40.0458374,26.176978,17z/data=!3m1!4b1!4m5!3m4!1s0x14b04c4c4365d56d:0x957f62af4e81104!8m2!3d40.0458125!4d26.1792157)
-40.046079676342764, 26.179177425981795
+Private Frederick Spearink: 40.046120999996475, 26.17819112174944
+Second Lieutenant Sidney Vandyke Hasluck: 40.046079676342764, 26.179177425981795
 
 * [Plymouth Naval Memorial](https://www.google.com/maps/place/Plymouth+Naval+Memorial/@50.3656944,-4.144452,17z/data=!3m1!4b1!4m5!3m4!1s0x486c93523afb10b5:0x812a02e710fad21e!8m2!3d50.365691!4d-4.1422633)
 50.36582785459549, -4.142284760117049
 
 * [Menin Gate Memorial](https://www.google.com/maps/place/Menin+Gate/@50.8519971,2.8889439,17z/data=!3m1!4b1!4m5!3m4!1s0x47dccef80de49a41:0xbf9442beac718fb3!8m2!3d50.8519937!4d2.8911326)
-50.852156240636816, 2.89112186873956
+Private Thomas Phillips: 50.851866340749275, 2.8908868271336203
+Lance Corporal Arthur Norman (Barney) Allen: 50.85220907213556, 2.8912626644448967
 
 * [Canadian National Vimy Memorial](https://www.google.com/maps/place/Canadian+National+Vimy+Memorial/@50.3795947,2.7717847,17z/data=!3m1!4b1!4m5!3m4!1s0x47dd376aa65c325d:0xb819d1715a18b36b!8m2!3d50.3795913!4d2.7739734)
 50.37981021533251, 2.7739841263899008
 
 * [Thiepval Memorial Pier](https://www.google.com/maps/place/Historial+de+la+Grande+Guerre+-+Mus%C3%A9e+de+Thiepval/@50.0522968,2.6860239,17z/data=!3m1!4b1!4m5!3m4!1s0x47dd596c456bcd93:0xfff5bd44b9603ada!8m2!3d50.0523266!4d2.6878095)
-50.05309632492973, 2.687876256950335
+Private Bertram Alec Reader: 50.05252071122409, 2.687815630628548
+Lance Corporal Norman Frank Ewart Cole: 50.05309632492973,2.687876256950335
 
 * [Huthwaite Cenotaph](https://www.google.com/maps?q=huthwaite+cemetery&rlz=1C5CHFA_enGB796GB798&um=1&ie=UTF-8&sa=X&sqi=2&ved=2ahUKEwj40rC7o_3yAhXlg_0HHT5aAUwQ_AUoAXoECAEQAw)
 53.127595371367754, -1.295838617665544
@@ -484,7 +487,9 @@ All of the coordinates that I have added to my JavaScript Map file have been fou
 50.88730239126956, 2.998478924563846
 
 * [Tyne Cot Memorial](https://www.google.com/maps/place/Tyne+Cot+Cemetery+%26+Visitors+Centre/@50.8871163,2.9963546,17z/data=!3m1!4b1!4m5!3m4!1s0x47dccc9e65f915a3:0x35c962d98dd8a4a0!8m2!3d50.8871129!4d2.9985433)
- 50.88725, 2.99852
+Major and acting Lieutenant-Colonel Harry Moorhouse: 50.88730239126956, 2.998478924563846
+Captain Ronald Moorhouse: 50.887139952689154,2.9985754842845584
+Rifleman Henry William Longman: 50.88658494994486, 2.998103415514772
 
 * [Loos British Cemetery](https://www.google.com/maps/place/Loos+British+Cemetery/@50.4514285,2.7958643,17z/data=!3m1!4b1!4m5!3m4!1s0x47dd3070df24a717:0x1dd3a20ed516d46f!8m2!3d50.4514251!4d2.798053)
 50.45154804442785, 2.798063726393039
@@ -542,6 +547,8 @@ Another returning thank you goes out to Jim Jenner and his wife Susie Jenner for
 Another recurring Thank you goes out to Stuart Crang at The Learning People Global. I discussed this and the other ideas for future Milestone Projects with him, he was excited, enthusiastic and supportive as always. I would also like to thank The Learning People Global who have also checked in to see how I am getting on and offer support as well as remind me they are also there for me supporting me.
 
 I would also like to thank the [Code Institute](https://codeinstitute.net/) for putting together the template in GitPod which I was able to use along with the Emmett abbreviation. I would also like to say Thank you for the superb course content that has enabled me to learn new skills, in doing so this has enabled me to complete my second Milestone Project (which came around quickly). Also, the Student Care team for their check-up calls to see if all is ok. I really appreciate this and it really helps to remind me that there is an enormous amount of support that is there pushing me for every success. I would also like to mention and thank Alexander in Student Care for his help and support with this and answering the questions that I had regarding this project, as well as for sending through some extra resources in the way of videos to help me. It is very much appreciated and I thank you again for your help. I would like to thank Michael and Sheryl for their help with the map and marker section on my page. If it wasn't for them I wouldn't have a fully functioning map with the heroes located on. So Thank you again for your help and patience, it is much appreciated as always.
+
+A huge thank you to Sean Young on Slack who helped me by sending some useful links for JavaScript to videos and sites. With these, I was able to get the EmailJS service up and fully functioning on my website. I have thanked Sean on Slack but wanted to also acknowledge and thank Sean in my README file as well.
 
 I would like to say a huge thank you to Andrew at [Google](https://www.google.com/) for his help in assisting me to get the map to function. I was having issues with the map loading then every so often displaying an error and not loading on both my GitPod preview (having opened the port 8000 to view this in my browser) and on my final site. Working with Andrew and asking questions as well as providing the answers we were able to solve this issue. So, thank you again Andrew for your help, it is very much appreciated.
 
