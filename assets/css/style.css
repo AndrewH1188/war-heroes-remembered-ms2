@@ -336,16 +336,17 @@ p {
     }
 
     .navbar-brand {
-        font-size: larger;
+        font-size: x-small;
         text-align: center;
     }
 
     .navbar-toggler {
-        margin-left: 10px;
+        margin-left: 0;
+        font-size: x-small;
     }
 
     .button {
-        padding-left: 30%;
+        padding-left: 0;
     }
 
     .hero-info {
