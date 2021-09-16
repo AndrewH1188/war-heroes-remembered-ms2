@@ -1,5 +1,4 @@
-// Complpeted with help from Sheryl and Michael in Tutor Support as well as https://www.aspsnippets.com/Articles/Google-Maps-API-V3-Add-multiple-markers-with-InfoWindow-to-Google-Map.aspx
-
+// Complpeted with help from Sheryl and Michael in Tutor Support as well as as snippets
 function LoadMap() {
   const cemetery = { lat: 50.05484, lng: 3.52440 };
   const map = new google.maps.Map(document.getElementById("map"), {
