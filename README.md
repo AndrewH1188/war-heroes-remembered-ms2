@@ -44,7 +44,6 @@ My website has been designed to be responsive across all platforms. The original
 
 
 ## User Experience UX 
-
 This website has been designed by myself Andrew Harding because of my interest in military history, as well as in finding out relatives that made the ultimate sacrifice by playing their part in the First World War. I hope that in using this website the users are able to learn about some of the selected heroes that took part as well as potentially trace someone who may be their relative or even someone who crossed paths or was in the same unit as their relative(s).
 
 
@@ -191,6 +190,7 @@ This image has been downloaded from [Pixabay](https://pixabay.com/) and used on 
  * file #: 179912388
  * Photo uploaded to Adobe Stock by Kartouchken
 This image has been used for the Heroes that unfortunately have no photo of them available. This image has also been used on Facebook, Twitter and Instagram for the Heroes as well.
+
 #### Heroes Page 1 image sources
 5. [Private Richard Spearink](https://stock.adobe.com/uk/images/ramscappelle-road-military-cemetery/179912388)
  * file #: 179912388
@@ -202,6 +202,7 @@ This image has been used for the Heroes that unfortunately have no photo of them
 10. Private Thomas Phillips - My own photo taken on my iPhone 11 at the Huthwaite Cemetery Cenotaph Memorial.
 11.[Leading Seaman John Sexton](https://stock.adobe.com/uk/images/ramscappelle-road-military-cemetery/179912388)
 12. [Lance Corporal Arthur Norman (Barney) Allen](https://www.awm.gov.au/collection/P10687374) Item copyright: Copyright expired - public domain, Public Domain Mark This item is in the Public Domain.
+
 #### Heroes Page 2 image sources
 13. [Major and acting Lieutenant-Colonel Harry Moorhouse](https://archives.passchendaele.be/en/soldier/1284) 
 14. [Captain Ronald Moorhouse](https://archives.passchendaele.be/en/soldier/1286)
@@ -299,13 +300,13 @@ I have been able to build this fully functioning website using the below languag
 * [Lighthouse](https://developers.google.com/web/tools/lighthouse): Was used for testing website performance, check for Performance, Accessibility, Best Practices and Search Engine Optimization (SEO). I have tested as before on my Go Tennis System the different categories mentioned above on both mobile applications and computer applications and have loaded the screenshots of the results in the testing section.
 * [Google Fonts:](https://fonts.google.com/) Google Fonts was used to find a suitable font as well as to import this font into my website. The font that I decided to use as it was clean, stylish and fitting is called Poppins which is displayed on all pages on my website / throughout the project. This is to keep styles consistent throughout my website. 
 * [Font Awesome:](https://fontawesome.com/) I have used fewer icons this time as I didn’t think that too many were appropriate given the subject of the site. The Font Awesome Icons that I have used have been listed below:
- * [Hamburger Bars icon](https://fontawesome.com/v5.15/icons/bars?style=solid)
- * [Facebook icon](https://fontawesome.com/v5.15/icons/facebook-f?style=brands)
- * [Twitter icon](https://fontawesome.com/v5.15/icons/twitter?style=brands)
- * [Instagram icon](https://fontawesome.com/v5.15/icons/instagram?style=brands)
- * [YouTube icon](https://fontawesome.com/v5.15/icons/youtube?style=brands)
- * [Arrow Up icon](https://fontawesome.com/v5.15/icons/arrow-up?style=solid)
- * [Send icon](https://fontawesome.com/v5.15/icons/paper-plane?style=regular)
+    * [Hamburger Bars icon](https://fontawesome.com/v5.15/icons/bars?style=solid)
+    * [Facebook icon](https://fontawesome.com/v5.15/icons/facebook-f?style=brands)
+    * [Twitter icon](https://fontawesome.com/v5.15/icons/twitter?style=brands)
+    * [Instagram icon](https://fontawesome.com/v5.15/icons/instagram?style=brands)
+    * [YouTube icon](https://fontawesome.com/v5.15/icons/youtube?style=brands)
+    * [Arrow Up icon](https://fontawesome.com/v5.15/icons/arrow-up?style=solid)
+    * [Send icon](https://fontawesome.com/v5.15/icons/paper-plane?style=regular)
 * [W3C HTML-validator:](https://validator.w3.org/) used to find errors in my HTML code as well as implement the suggestions to fix these.
 * [Jigsaw:](https://jigsaw.w3.org/css-validator/) used to find errors in my CSS code as well as implement the suggestions to fix these.
 * [JS Hint](https://jshint.com/) for my JavaScript to see if there are any errors and use the feedback to fix these.
@@ -349,43 +350,188 @@ I have been able to build this fully functioning website using the below languag
 I set up a group on [Facebook](https://en-gb.facebook.com/) called [War Heroes Remembered](https://www.facebook.com/groups/911836479678983/) so that the Facebook icon in the footer had somewhere to link too. I also set up a [Twitter](https://twitter.com/) page [@war_remembered](https://twitter.com/WarRememembered) as well as an [Instagram](https://www.instagram.com/) page [war_heroes_remembered](https://www.instagram.com/war_heroes_remembered/) so that these icons had somewhere to link too. I wouldn’t have thought nor believed that where would be many people following or liking the content that is currently on my Instagram page, but as there are people every day following and liking my content and page I have decided that I will continue to work on this after my Milestone Project submission and after I have finished the course adding content as I am grateful for the support that I have been receiving on a daily basis. With the icon for YouTube I have left this linking to the home page of [YouTube](https://www.youtube.com/) as I haven’t set up an account and don’t have any videos, although there is nothing stopping me from doing this in future as part of this project going forwards in the future. 
 
 
+## Testing:
+As this is a site that I have created for myself as an interest in military history and have also uncovered some of my relatives that played their part in World War One. Taking into consideration users would be viewing my website on different screen sizes I factored this into the original design, although this didn’t stop issues with the code in places, like the map and the message area that was viewing at a width greater than the phone screen size, but these were quickly addressed using the media queries in CSS. As part of an effort to help myself and mentioning CSS and media queries I put in the different screens that would be likely to fit into the different media query types as comments above the sizes. This not only benefits me now but also when I come to use these little works of magic further on in the course or in my career as they are there as a reference and guidance. When it came to implementing the technologies I used Bootstrap to help with some areas like the nav bar. This helped speed up the production slightly, although when there are areas of the nav bar that could be improved upon. When testing this the links were too close to the page “brand”, the toggle icon disappeared as the black nav bar hid this, but with the help from Dev Tools and identifying the area to target I was able to show the toggle icon, although unfortunately not address the positioning of the links. Speaking of using Dev Tools this allowed me to view my site and its appearance on other devices as wells to show other screen sizes and see the break points in responsiveness. I was also able to constantly test my website on my 32 inch TV, my medium-sized 13 inch Mac, my 5th Generation 9.7 inch iPad as well as my 6.06 inch iPhone 11 to see if the layout was as I expected. If there were any errors found I would be able to address these and test again. With the testing completed my website functions as near enough as I would expect it to do so, so I am happy with this result.
+
+I have included below some images from the many times I did some testing on my iPhone and iPad for the different pages as well as a write up about these.
+
+
+* Home page:
+On the home page when I was setting up I decided to see how the nav bar toggle and footer were looking. There was an issue with the spacing on the nav bar with regard to the toggle element, also the social media icons had a spacing error, although with some tinkering in the CSS this was soon resolved.
+![Home page.  iPhone nav bar and footer test](assets/images/testing/phone-test-social-navbar.jpg)
+I had the nav bar toggle showing and looking as I expected.
+![Home page toggle hover phone test 1](assets/images/testing/home-page-mobile-test1.jpg)
+I tested this with the nav toggle by hovering over this to see if the icon would change to my specified colour, which it did. 
+![Home page toggle hover phone test 2](assets/images/testing/home-page-mobile-test2.jpg)
+Originally when I was setting up I used the Bootstrap nav bar, this came with the light background colour, I changed the colour of this in CSS but lost the toggle icon. Once I found the right class to target this I was able to show this again.
+![Home page iPad Nav bar invisible toggle test](assets/images/testing/ipad-home-nav-test.jpg)
+
+
+* Heroes page:
+When I had added the heroes imaged I did a test to see how these displayed on my iPhone. As shown below was how the layout initially looked.
+![Heroes layout on phone test 1](assets/images/testing/heroes-layout-1-phone-test.jpg)
+I was able to amend the above to start and display ad a column on smaller screens, but as the screenshot shows the text and images weren’t displaying as entered on the page.
+![Heroes layout on phone test 2](assets/images/testing/heroes-layout-2-phone-test.jpg)
+Using CSS I was able to create a more orderly layout having the hero central on the page and the text for them also aligned central on the page, but there was then the issue of spacing between the text and the hero image underneath.
+![Heroes layout on phone test 3](assets/images/testing/heroes-layout-3-phone-test.jpg)
+Again I turned back to CSS and added a class name to target this issue in the HTML. With both HTML class and CSS working in sync the layout was a lot cleaner and what I was expecting to see, so I was happy with this.
+![Heroes layout on phone test 3](assets/images/testing/heroes-layout-4-phone-test.jpg)
+When displaying next to each other as shown on my iPad screenshot there were issues in the text alignment. But with some tinkering in the CSS this was soon resolved and the heroes were cleanly laid out.
+![iPad Heroes layout test](assets/images/testing/ipad-heroes-layout-test.jpg)
+
+* Heroes Show more/Show less button
+As part of the heroes page I also tested the functionality of the Show more/Show less button and have added some screenshots below to show that the name of the button changes as well as the hover status from black to red and back again.
+The buttons show on load state Show more.
+![Show more 1](assets/images/testing/show-more1.jpg)
+When hovered over the button colour changes as shown below in the screenshot.
+![Show more 2](assets/images/testing/show-more2.jpg) 
+When clicked the button changes from Show more to Show less as there are no more to load.
+![Show less 1](assets/images/testing/show-less1.jpg)
+Again like the Show more the Show less goes from black to red when hovered. 
+![Show less 2](assets/images/testing/show-less2.jpg)
+
+* Contact page:
+When testing on my iPhone I came across an error with my message box which was displaying as pictured. To fix this I used media queries.
+![iPhone Contact message area test](assets/images/testing/message-box-phone-test.jpg)
+
+When testing on my iPad I came across the same error as I had with my iPhone, as mentioned above the media queries fixed this issue.
+![Contact message box iPad test](assets/images/testing/contact-message-box-ipad-test.jpg)
+
+
+* EmailJS:
+There were errors with my JavaScript file and I kept on getting this message when I pressed send appear in the console. To combat this I re watched the EmailJS section of Rosie’s Resume and implemented the code for this. I was able to work out where I went wrong and this then enabled the form to work as expected and send the test message which was warmly received in my Gmail inbox
+![EmailJS Console error](assets/images/testing/emailjs-console-error.jpg)
+
+
+The images shown are just some of the many tests that I have carried out throughout this project. There have been some tests where I haven’t been successful in changing the outcome, but I’m sure that if I revisit this project after gaining more experience I will be able to fix these.
+
+
+## Implementation:
+This is now my second Milestone Project and with the different tasks building websites on the Code Institute course I am becoming more familiar with GitPod and the various ways of working. Also as this is my second Milestone Project I have been able to debug my site fairly well. To debug my website I turned to my old trusty friend Google Dev Tools which are located in Chrome. Having built the site to be mobile first in terms of original layout / design this was fairly straightforward. Adding Bootstrap assisted me with some features for this in the nav bar and the contact form. My other friends were called on to help with the mobile first and these were the Media Queries. I went through the process of build, test, media query any section that required this in order to display correctly on a mobile or smaller device. I also used Lighthouse in Dev tools to check performance, accessibility, best practices and SEO for both computer and mobile. This highlighted any errors in my code and pin pointed me how these could be fixed or improved to increase score if possible. I have seen that there are issues with images that are affecting the scores of the performance mainly on mobile view and have worked with the feedback provided by Lighthouse to fix these as best as I can. I have also run my code through the [W3 Validator](https://validator.w3.org/) for my HTML [W3 Css Validator(https://jigsaw.w3.org/css-validator/) as well as [JS Hint](https://jshint.com/) for my JavaScript to see if there are any errors and use the feedback to fix these.
 
 
 
+## Results:
+Whilst testing my site I found the following problems and issues:
+* The Bootstrap Nav Bar toggle icon disappeared / is not displaying, the reason for this is because I changed the background of the Nav Bar to black, this is the same colour as the toggle and therefore is not showing. To rectify this issue I have simply changed the colour of the toggle in CSS and this has allowed this to display and show as I had intended.
+* The links for the pages were close to the War Heroes Remembered title in the nav bar which wasn’t how I would have liked them to be displayed. This is something that I have tried to look into but didn’t have any luck, so they have been left as they are. I would imagine that because the nav bar is from bootstrap it is something to do with them, but can’t be sure.
+
+* HTML:
+I ran the HTML of my website through the W3 HTML Validator and this returned with the following results:
+[W3 HTML Quick link](https://validator.w3.org/nu/?doc=https%3A%2F%2Fandrewh1188.github.io%2Fwar-heroes-remembered-ms2%2F) The link provided is a quick link to show my HTML testing. Please also see screenshots below for this.
+![W3 HTML testing 1](assets/images/validator/w3-html-testing1.jpg)
+From my screenshot there are a couple of red errors that I would guess are major.
+
+* Having removed and amended the code that was causing the first error I then looked into the second error message that displaying. I originally thought the error with the span was coming from the Bootstrap Framework, but checked the Bootstrap code and saw that I had added the span that was showing up in the error as pictured below.
+![W3 HTML testing](assets/images/validator/w3-html-testing2.jpg)
+![W3 HTML error 1](assets/images/validator/w3-error1.jpg)
+![W3 HTML error 2](assets/images/validator/w3-error2.jpg)
+
+* Having Identified that the error was not from the Bootstrap Framework and that it was of my own doing I check to see if the class was being used in my CSS file. Having identified this was not I removed this and re run my HTML through the W3 Validator. The final output for the HTML testing is as follows.
+! [W3 HTML final check](assets/images/validator/w3-final-html-check.jpg)
 
 
+* CSS:
+I ran the CSS of my website through the W3 CSS Validator and this returned the following result:
+[W3 CSS Quick link](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fandrewh1188.github.io%2Fwar-heroes-remembered-ms2%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) The link provided here is a quick link to show my testing for the CSS Please also see screenshot of the testing below.
+![W3 CSS testing](assets/images/validator/w3-css-testing1.jpg)
+![W3 CSS testing 2](assets/images/validator/w3-html-testing2.jpg)
+As you will see from both screenshots that are included the main issues are with Bootstrap and not with anything that I have done, so I am happy with this.
+
+* JSHint: 
+As part of my testing I also used JSHint to see if the code I was writing would work and to see if there were any errors. The code in the image was to test and see if I could on load hide the heroes so that the button would have to be clicked to show the other heroes.
+![EmailJS setup](assets/images/testing/example-js-hint-testing.jpg)
 
 
+* Contact Form:
+*Having successfully connected the [EmailJS](https://www.emailjs.com/) to my email address I received the email conformation to my email that this was working (The service key has been changed on the screenshot as a precaution).
+![EmailJS setup](assets/images/testing/emailjs-setup.jpg)
+
+* I was then able to continue to add the code to the JavaScript file sendEmail.js I tested to see if all was connected from my website and if this was able to send the message and receive this by my email. I originally had issues so looked at the coder from the Rosie project and added bits here to help with this.
+![Contact form test 1](assets/images/testing/contact-form-test1.jpg)
+
+* I was able to add in an alert to the user to let them know their message had been received through the message system and that they would get a reply soon.
+![Contact form test 2](assets/images/testing/contact-form-test2.jpg)
+
+* The only thing was I had to remove the return false as this stopped the message disappearing and although the alert said this message had been sent, it was sat there still on the screen in the message section, which as a user I would be asking if the message had really been sent.
+![Contact form reload](assets/images/testing/contact-reload.jpg)
+
+* Upon removing the return false and testing the contact section I was able to receive an email showing who this came from, the message and the email address to contact the person who sent the enquiry.
+![EmailJS Result](assets/images/testing/emaijs-email-test-result.jpg)
+
+* An error that my mentor found was regarding the alert message displaying even though the contact form was empty, even thought the name, email and message area are required fields.
+![send-empty](assets/images/testing/send-empty-error.jpg)
+
+* Map:
+Originally I had issues with the map, but managed with help to get this displaying. The other issue was the markers that needed to display on the different locations for where the heroes are buried or commemorated weren’t displaying. With some help from Andrew at Google I was able to get a map functioning, but still no markers. I had help from Sheryl and Michael at Code Institute and was able to get the map up and working.
+![map](assets/images/testing/map1.jpg)
+
+* With the help from Sheryl and Michael I was also able to get the markers on the map as well as the names displaying when the marker for each was clicked on with the name of the hero and the location of the marker.
+![Marker Map Clicked 1](assets/images/testing/map-with-marker-clicked1.jpg)
+![Marker Map Clicked 2](assets/images/testing/map-with-marker-clicked2.jpg)
+
+* Smooth Scroll: Having added in the back to top button the ability to add a smooth scroll was implemented into the code from [CSS Tricks](https://css-tricks.com/snippets/jquery/smooth-scrolling/) to make this work. This was tested and works as intended.
+
+* I have tested my site using Lighthouse in Google Chrome Dev Tools and my results for the first test are below. I’m disappointed to see the performance in the red but will see if I can change the outcome of these issues.
+![Home Page Lighthouse Desktop 1](assets/images/lighthouse/lighthouse-home-desktop1.jpg)
+![Home Page Lighthouse Mobile 1](assets/images/lighthouse/lighthouse-home1-mobile.jpg)
+![Heroes Page Lighthouse Desktop 1](assets/images/lighthouse/lighthouse-heroes-desktop1.jpg)
+![Heroes Page Lighthouse Mobile 1](assets/images/lighthouse/lighthouse-heroes-mobile1.jpg)
+![Contact Page Lighthouse Desktop 1](assets/images/lighthouse/lighthouse-contact-desktop1.jpg)
+![Contact Page Lighthouse Mobile 1](assets/images/lighthouse/lighthouse-contact-mobile1.jpg)
+
+* Upon testing my site again using Lighthouse in Google Chrome Dev Tools, my results for the second test are below. I was happier with the performance of the majority of the pages now but there are issues with performance on the Heroes mobile and Contact. To fix the issues that I had before were to do with the size of the images.
+![Home Page Lighthouse Desktop 1](assets/images/lighthouse/lighthouse-home-desktop2.jpg)
+![Home Page Lighthouse Mobile 1](assets/images/lighthouse/lighthouse-home-mobile2.jpg)
+![Heroes Page Lighthouse Desktop 1](assets/images/lighthouse/lighthouse-heroes-desktop2.jpg)
+![Heroes Page Lighthouse Mobile 1](assets/images/lighthouse/lighthouse-heroes-mobile2.jpg)
+![Contact Page Lighthouse Desktop 1](assets/images/lighthouse/lighthouse-contact-desktop2.jpg)
+![Contact Page Lighthouse Mobile 1](assets/images/lighthouse/lighthouse-contact-mobile2.png)
 
 
+## Bugs
+There were many times with my “friend” JavaScript that there were issues that were found when testing. Some of these issues included the Heroes page, the button to show and hide was displaying Show more all the time, but with some Googling I was able to find what I required to resolve this issue and now this works as expected. The only other thing on the Heroes page is the loading of the page and the content this is showing. I would like there to be heroes on the page, but hide the other heroes, this will mean the user has to interact with the site to show more heroes. 
+
+Another issue again with JavaScript was the Contact page, the map wasn’t displaying all the time and throwing an error of initMap is not a function, the EmailJS wasn’t working either.
+
+### Maps
+When I used the Google maps to get the code and API key into and on my page this showed the map as expected. The problem came when reloading the page and the console chucking an initMap is not a function, so I was met with a grey box instead of a nice map. I tried to get this to work by using the video for Rosie’s Resume and copying some of the code there. Unfortunately this was not to be, and after struggling with the markers into the map I asked for help from Tutor Support. With the help of Sheryl and Michael I was able to get further forwards. The issue was then the markers were set, the map had been set in JavaScript but was not displaying. I went into my HTML and after adding in the JavaScript and looked at what could be missing. After looking at how this was done elsewhere I realised I was missing the function to load map in the body tag. Once this was added it was happy days and the map with the markers appeared. Take that bug!
+![Map Bug fix](assets/images/bug-fix/bug-fix-map.jpg)
+
+### EmailJS
+There were errors with my JavaScript file and I kept on getting this message when I pressed send appear in the console. To combat this I re watched the EmailJS section of Rosie’s Resume and implemented the code for this. I was able to work out where I went wrong and this then enabled the form to work as expected and send the test message which was welcomely received in my Gmail inbox.
+![EmailJS Console error](assets/images/testing/emailjs-console-error.jpg)
 
 
+### EmailJS
+Having only looked into why the alert message was displaying without any of the form being filled in something happened that ruined the send through to my email address when the user submits their details. I reverted to previous working code for both HTML and JavaScript and this didn’t work either. I asked for some help from Tutor Support, and we came to the same conclusion that we believe this isn’t to do with JavaScript or my HTML but it seems like this problem is coming from the EmailJS side.
+![EmailJS Console error test](assets/images/testing/emailjs-console-error.jpg)
+![EmailJS Console error test2](assets/images/testing/emailjs-console-error2.jpg)
+The interesting thing is finding and viewing the stats on the EmailJS 
+![EmailJS Stats](assets/images/testing/emailjs-stats.jpg)
 
 
+### Contact box alert message
+Having successfully implemented an alert so that when they send their message/enquiry they know this has been sent it was discovered that although the fields were set as required, the message to alert of a successful send would still display regardless of the fields filled in or not. Writing this I haven’t figured out a useful way of sorting this issue out, but have tried to and have a contact js file in my testing with code that was sourced to show that I have tried to battle this issue and bug.
 
 
+### Heroes button
+Originally my Show more button did not change or toggle to say Show less, but with a bit of help from the Stack Overflow and someone else asking the same question I was able to implement this feature using jQuery.
+
+### Heroes showing and hiding
+The issue that I have here is that with the button working the heroes all show. The idea of having the button is to show more and then hide these on load. The problem I had was to get those that should hide on load to do this. Working with my Uncle we found a very simple W3 Schools version and added some other jQuery to this. The problem was that this had two buttons and when the code that worked hiding the heroes was placed into my heroes js file and then the names of the elements altered to target those that require this it didn’t work. The only thing I can think of is to add the another button for hide and a separate button for show like the W3 Schools example as shown below.
+![EmailJS Stats](assets/images/testing/w3-schools1.jpg)
+![EmailJS Stats](assets/images/testing/w3-schools2.jpg)
 
 
+### Smooth Scroll
+Having been able to implement the smooth scroll ability to the back to top button and testing this works on my Mac, upon testing on my iPhone and iPad I found that this function is not functioning on these devices, so unfortunately this bug/issue has had to remain for now.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+### Bootstrap
+I thought initially the Bootstrap Framework was causing the warning to show regarding a rogue span. When I ran my HTML through the W3 Validator and was going to make a note of this and leave this if it was down to Bootstrap (as there would be nothing that I would be able to do (unless Bootstrap was going to kindly grant me access, which I highly doubt)). Upon further inspection and taking a look at the code on the Bootstrap website I saw that the rogue span that was causing the error was initially what I had put in to try and put the links on the right-hand side of my page, which had been tried, tested and failed, and likewise forgotten to be removed. It was only looking into the W3 report a bit more then having started a new day I thought about looking into this on the Bootstrap website, that I was able to locate that it had indeed been my error and removed it. 
+![W3 HTML testing](assets/images/validator/w3-html-testing2.jpg)
+![W3 HTML error 1](assets/images/validator/w3-error1.jpg)
+![W3 HTML error 2](assets/images/validator/w3-error2.jpg)
 
 
 ## Deployment:
@@ -544,7 +690,7 @@ Firstly again for all the help and expertise given to me to make this site possi
 
 A special thank you goes out to my superb Mum, she has listened to me talk about this project and what I am looking to try and achieve. She has suggested how I can refine/fine-tune this in order to make this project realistic, able to construct and complete. I would like to thank my Mum for her ongoing support, faith, interest and encouragement that has helped me through another Milestone Project, even if she doesn't understand the coding process, but is still proud of all the hours, dedication, hard work and immense learning that I have undertaken to get this far.
 
-My Aunt and Uncle deserve some thanks and recognition for their interest, ongoing support and encouragement. I would like to also thank my Uncle specifically for his help in helping me better understand parts of JavaScript, although I’m sure he feels the same about the help I have given to him to better understand this as well.
+My Auntie Julie and Uncle Danny deserve thanks and recognition for their interest, ongoing support and encouragement. I would like to also thank my Uncle specifically for his help in helping me better understand parts of JavaScript, although I’m sure he feels the same about the help I have given to him to better understand this as well. I would also like to add and say thank you again to my Uncle for asking me to talk through with him what it is I'm doing and looking at my code, though he knows far more than I do about coding he is able to help me by talking through this with him, and also when we zoom call I screenshare and try out the different languages and see the results of the code written. This is a great help to us both and especially myself as a novice coder like myself. Again thank you for your interest and all your help, I really appreciate it and hope to be as good at coding and understanding coding as you are. 
 
 Again I have my ace friend and tennis coach (in that order) Adam Jameel to thank for his support, encouragement and enthusiasm now he knows what I do (Milestone 1 Go Tennis System) although still doesn’t have a clue how the magic happens, but he believes and encourages it to do so. Thank you sir, it is great to have your support, encouragement and belief in me keeping me going, so thank you again.
 
@@ -552,11 +698,15 @@ Another returning thank you goes out to Jim Jenner and his wife Susie Jenner for
 
 Another recurring Thank you goes out to Stuart Crang at The Learning People Global. I discussed this and the other ideas for future Milestone Projects with him, he was excited, enthusiastic and supportive as always. I would also like to thank The Learning People Global who have also checked in to see how I am getting on and offer support as well as remind me they are also there for me supporting me.
 
-I would also like to thank the [Code Institute](https://codeinstitute.net/) for putting together the template in GitPod which I was able to use along with the Emmett abbreviation. I would also like to say Thank you for the superb course content that has enabled me to learn new skills, in doing so this has enabled me to complete my second Milestone Project (which came around quickly). Also, the Student Care team for their check-up calls to see if all is ok. I really appreciate this and it really helps to remind me that there is an enormous amount of support that is there pushing me for every success. I would also like to mention and thank Alexander in Student Care for his help and support with this and answering the questions that I had regarding this project, as well as for sending through some extra resources in the way of videos to help me. It is very much appreciated and I thank you again for your help. I would like to thank Michael and Sheryl for their help with the map and marker section on my page. If it wasn't for them I wouldn't have a fully functioning map with the heroes located on. So Thank you again for your help and patience, it is much appreciated as always.
+I would also like to thank the [Code Institute](https://codeinstitute.net/) for putting together the template in GitPod which I was able to use along with the Emmett abbreviation. I would also like to say Thank you for the superb course content that has enabled me to learn new skills, in doing so this has enabled me to complete my second Milestone Project (which came around quickly). Also, the Student Care team for their check-up calls to see if all is ok. I really appreciate this and it really helps to remind me that there is an enormous amount of support that is there pushing me for every success. I would also like to mention and thank Alexander in Student Care for his help and support with this and answering the questions that I had regarding this project, as well as for sending through some extra resources in the way of videos to help me. It is very much appreciated and I thank you again for your help. I would like to thank Michael and Sheryl for their help with the map and marker section on my page. If it wasn't for them I wouldn't have a fully functioning map with the heroes located on. So Thank you again for your help and patience, it is much appreciated as always. 
+
+Another thank you goes to John in Tutor Support at [Code Institute](https://codeinstitute.net/) for being so understanding and helpful with the issues I have had. Your help is much appreciated also so thank you.
 
 A huge thank you to Sean Young on Slack who helped me by sending some useful links for JavaScript to videos and sites. With these, I was able to get the EmailJS service up and fully functioning on my website. I have thanked Sean on Slack but wanted to also acknowledge and thank Sean in my README file as well.
 
 I would like to say a huge thank you to Andrew at [Google](https://www.google.com/) for his help in assisting me to get the map to function. I was having issues with the map loading then every so often displaying an error and not loading on both my GitPod preview (having opened the port 8000 to view this in my browser) and on my final site. Working with Andrew and asking questions as well as providing the answers we were able to solve this issue. So, thank you again Andrew for your help, it is very much appreciated.
+
+I would like to thank Sergey at [EmailJS](https://www.emailjs.com/) for the help and support that they have given to me to assist with my questions and look into the issues to try and get me back up and running again. Your help and support is very much appreciated so thank you.
 
 I would also like to thank all the staff and DJs at [Planet Rock](https://planetradio.co.uk/planet-rock/)for the great music and keeping me entertained whilst I code away, whether it is coming from my radio or wireless headphones when like now it is nearly 3am in the morning, you're giving me the energy keeping me going, so thank you. 
 
