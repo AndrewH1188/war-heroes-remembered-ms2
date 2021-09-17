@@ -13,16 +13,14 @@
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="icon" href="assets/images/whr-favicon.jpg">
   <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAOYo3w5G-GuRPol6AelAUaUtsSZ3tpbuk"></script>
-  <script type="text/javascript"
-        src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
-</script>
-<script type="text/javascript">
-   (function(){
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
+  </script>
+  <script type="text/javascript">
+    (function () {
       emailjs.init("user_Vfp19QEaLXjBi2kGQpkTh");
-   })();
-</script>
+    })();
+  </script>
   <title>War Heroes Remembered | Contact</title>
-  
 </head>
 
 <body onload="LoadMap()">
@@ -33,24 +31,22 @@
       <i class="fas fa-bars" aria-hidden="true"></i>
       <span class="navbar-toggler-icon"></span>
     </button>
-    <span class="nav-page-links">
-      <div class="collapse navbar-collapse" id="navbarText">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="index.html#about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="heroes.html">Heroes</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="contact.html">Contact<span class="sr-only">(current)</span></a>
-          </li>
-        </ul>
-      </div>
-    </span>
+    <div class="collapse navbar-collapse" id="navbarText">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="index.html#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="heroes.html">Heroes<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
   </nav>
   <img class="contact-hero" src="assets/images/poppy-crosses.jpg"
     alt="Wooden crosses with poppies row on row in the grass">
@@ -69,26 +65,27 @@
       Thank you and we look forward to hearing from you.</p>
   </section>
   <section class="form">
-  <form onsubmit="return sendMail(this);">
-    <div class="form-row">
-      <div class="form-group col-md-6">
-        <label for="name">Name</label>
-        <input type="text" class="form-control" id="name" required>
+    <form onsubmit="return sendMail(this);">
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="name">Name</label>
+          <input type="text" class="form-control" id="name" required>
+        </div>
+        <div class="form-group col-md-6">
+          <label for="email">Email Address</label>
+          <input type="text" class="form-control" id="emailaddress" required>
+        </div>
       </div>
-      <div class="form-group col-md-6">
-        <label for="email">Email Address</label>
-        <input type="text" class="form-control" id="emailaddress" required>
+      <div>
+        <textarea name="enquirytype" class="form-control message-area" id="enquirytype" required></textarea>
       </div>
-    </div>
-    <div>
-      <textarea name="enquirytype" class="form-control message-area" id="enquirytype" required></textarea>
-    </div>
-    <div class="button" id="send">
-      <button type="submit" class="send-button" value="Send" onclick="alert('Thank you for contacting us, we have recieved your enquiry and will reply to you soon')">
-        Send &nbsp;<i class="far fa-paper-plane"></i></button>
-          </div> 
-  </form>
-</section>
+      <div class="button" id="send">
+        <button type="submit" class="send-button" value="Send"
+          onclick="alert('Thank you for contacting us, we have recieved your enquiry and will reply to you soon')">
+          Send &nbsp;<i class="far fa-paper-plane"></i></button>
+      </div>
+    </form>
+  </section>
   <!-- The code here for the back to top button has been taken from Material Design for Bootstrap (MDB) v5 & v4 -->
   <button type="button" class="btn btn-danger btn-floating btn-lg" id="btn-back-to-top">
     <i class="fas fa-arrow-up"></i>
@@ -130,9 +127,7 @@
   </script>
   <script src="assets/js/map.js"></script>
   <script src="assets/js/sendEmail.js"></script>
-
   <script src="assets/js/top-button.js"></script>
-  <!--<script src="assets/js/send-button.js"></script> onclick="myFunction()"-->
 </body>
 
 </html>
