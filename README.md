@@ -289,13 +289,14 @@ I have been able to build this fully functioning website using the below languag
 * [HTML5](https://en.wikipedia.org/wiki/HTML5)
 * [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 * [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
+* [jQuery](https://jquery.com/) 
 
 
 ## Libraries Frameworks and online resources:
 * [Bootstrap 4.6.0:](https://getbootstrap.com/docs/4.6/getting-started/introduction/)
  Bootstrap was used to help set the navigation bar.
 * Google Chrome Dev Tools: For testing purposes and to see why elements are not working as expected. Dev tools allowed me to make changes to my code in the browser to see a live representation of the website with the changes / amends that have been made.
-* Lighthouse: Was used for testing website performance, check for Performance, Accessibility, Best Practices and Search Engine Optimization (SEO). I have tested as before on my Go Tennis System the different categories mentioned above on both mobile applications and computer applications and have loaded the screenshots of the results in the testing section.
+* [Lighthouse](https://developers.google.com/web/tools/lighthouse): Was used for testing website performance, check for Performance, Accessibility, Best Practices and Search Engine Optimization (SEO). I have tested as before on my Go Tennis System the different categories mentioned above on both mobile applications and computer applications and have loaded the screenshots of the results in the testing section.
 * [Google Fonts:](https://fonts.google.com/) Google Fonts was used to find a suitable font as well as to import this font into my website. The font that I decided to use as it was clean, stylish and fitting is called Poppins which is displayed on all pages on my website / throughout the project. This is to keep styles consistent throughout my website. 
 * [Font Awesome:](https://fontawesome.com/) I have used fewer icons this time as I didn’t think that too many were appropriate given the subject of the site. The Font Awesome Icons that I have used have been listed below:
  * [Hamburger Bars icon](https://fontawesome.com/v5.15/icons/bars?style=solid)
@@ -331,10 +332,11 @@ I have been able to build this fully functioning website using the below languag
 ## Other Resources:
 * [W3 Validator](https://validator.w3.org/) to check for any HTML errors and use the feedback to resolve / fix these. 
 * [W3 Css Validator(https://jigsaw.w3.org/css-validator/) to check for any CSS errors and use the feedback to resolve /fix these. 
-* [JS Hint](https://jshint.com/) for my JavaScript to see if there are any errors and use the feedback to fix these.
 * [Code Institute](https://codeinstitute.net/) and the learning that I have completed so far with them. This has enabled me to put together and complete my project.
 * [Code Institute](https://codeinstitute.net/) I have re visited video tutorials that the Code Institute have provided regarding the different JavaScript sections. The main video tutorials were with Rosie’s Resume and adding the JavaScript elements with regard to the map and EmailJS to help me through the setup and getting mine fully functional.
 * [Stack Overflow](https://stackoverflow.com/) I have used Stack Overflow in order to search for answers to my questions like why I keep getting an error with the JavaScript regarding the initMap in the console. I have looked to see if there are any suggestions on how to resolve this and other JavaScript areas that may be experiencing errors.
+* [Stack Overflow - jQuery](https://stackoverflow.com/questions/39128483/show-more-show-less-with-jquery) Was used to show more/show less button change state answered by [Alex Char](https://stackoverflow.com/users/3420271/alex-char). This has been referenced in the heroes js file also.
+* [demo2s](https://www.demo2s.com/javascript/jquery-toggle-show-hide-method.html) Was used for the show/hide toggle for the heroes to make them appear and disappear. This has been referenced in the heroes js file also.
 * [Ahmad Awais](https://codepen.io/ahmadawais/pen/NQdWQx?editors=1010) I used this to look and see how they managed to lay out the markers with the location names. I used their style for the var locations and did the same for mine. When the Marker is clicked the Hero location and name will show.  
 * [Am I Responsive](http://ami.responsivedesign.is/) was used for the screenshot of the mock up which is at the top in my README.md file and also to show off my site my different social media platforms. 
 * [Google Chrome Developer Tools](https://developer.chrome.com/docs/devtools/) was used to test sizes, check responsiveness and view the layouts as well as debug errors and problems I encountered along the way.
@@ -418,6 +420,10 @@ You are more than welcome to run this project locally yourself, and if you would
 * [Material Design for Bootstrap (MDB) v5 & v4](https://mdbootstrap.com/docs/standard/extended/back-to-top/) I used MDB to enable me to add a back to the top for all pages, this was to make my website more user-friendly as well as provide interaction to and for the user.
 * [Bootstrap](https://getbootstrap.com/) has enabled me to add the nav bar and the contact form name and email section which are responsive across all devices.
 * [ASPSnippets](https://www.aspsnippets.com/Articles/Google-Maps-API-V3-Add-multiple-markers-with-InfoWindow-to-Google-Map.aspx) - Code for the map and markers as well as help from Sheryl and Michael from the Code Institute Tutor Support.
+* [Ahmad Awais](https://codepen.io/ahmadawais/pen/NQdWQx?editors=1010) I used this to look and see how they managed to lay out the markers with the location names. I used their style for the var locations and did the same for mine. When the Marker is clicked the Hero location and name will show.
+* [Stack Overflow - jQuery](https://stackoverflow.com/questions/39128483/show-more-show-less-with-jquery) Was used to show more/show less button change state answered by [Alex Char](https://stackoverflow.com/users/3420271/alex-char). This has been referenced in the heroes js file also.
+* [demo2s](https://www.demo2s.com/javascript/jquery-toggle-show-hide-method.html) Was used for the show/hide toggle for the heroes to make them appear and disappear. This has been referenced in the heroes js file also.
+* [Code Institute](https://codeinstitute.net/) Code from Rosie's Resume and slightly amended for the emailjs. This has been referenced in the sendEmail js file also.
 
 
 ## Content:
