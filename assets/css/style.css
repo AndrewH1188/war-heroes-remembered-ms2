@@ -304,26 +304,10 @@ p {
 /*--------------------------------------------- Media Queries */
 
 
-/*---------------- Computer larger screen size */
-
-@media (max-width: 1200px) {
-    .message-area {
-        min-height: 380px;
-        min-width: 100%;
-        padding: 0;
-    }
-}
-
 
 /*---------------- Computer medium screen size */
 
 @media (max-width: 992px) {
-    .message-area {
-        min-height: 380px;
-        min-width: 100%;
-        padding: 0;
-    }
-
     .navbar-toggler {
         margin-left: 340px;
     }
@@ -335,7 +319,7 @@ p {
 @media (max-width: 768px) {
     .message-area {
         min-height: 380px;
-        min-width: 382px;
+        min-width: 100%;
         padding: 0;
     }
 
@@ -372,7 +356,8 @@ p {
     }
 
     .send-button {
-        margin-left: 110px;
+        margin-left: 30px;
+        width: 140px;
     }
 }
 
@@ -380,12 +365,6 @@ p {
 /*---------------- Galaxy Fold */
 
 @media (max-width: 576px) {
-    .message-area {
-        min-height: 380px;
-        min-width: 100%;
-        padding: 0;
-    }
-
     .button {
         padding-left: 22%;
     }
@@ -402,10 +381,5 @@ p {
 
     .button {
         padding-left: 10px;
-    }
-
-    .send-button {
-        margin-left: 0;
-        margin-right: 0;
     }
 }
