@@ -481,12 +481,15 @@ Originally I had issues with the map, but managed with help to get this displayi
 ![Contact Page Lighthouse Mobile 1](assets/images/lighthouse/lighthouse-contact-mobile1.jpg)
 
 * Upon testing my site again using Lighthouse in Google Chrome Dev Tools, my results for the second test are below. I was happier with the performance of the majority of the pages now but there are issues with performance on the Heroes mobile and Contact. To fix the issues that I had before were to do with the size of the images.
-![Home Page Lighthouse Desktop 1](assets/images/lighthouse/lighthouse-home-desktop2.jpg)
-![Home Page Lighthouse Mobile 1](assets/images/lighthouse/lighthouse-home-mobile2.jpg)
-![Heroes Page Lighthouse Desktop 1](assets/images/lighthouse/lighthouse-heroes-desktop2.jpg)
-![Heroes Page Lighthouse Mobile 1](assets/images/lighthouse/lighthouse-heroes-mobile2.jpg)
-![Contact Page Lighthouse Desktop 1](assets/images/lighthouse/lighthouse-contact-desktop2.jpg)
-![Contact Page Lighthouse Mobile 1](assets/images/lighthouse/lighthouse-contact-mobile2.png)
+![Home Page Lighthouse Desktop 2](assets/images/lighthouse/lighthouse-home-desktop2.jpg)
+![Home Page Lighthouse Mobile 2](assets/images/lighthouse/lighthouse-home-mobile2.jpg)
+![Heroes Page Lighthouse Desktop 2](assets/images/lighthouse/lighthouse-heroes-desktop2.jpg)
+![Heroes Page Lighthouse Mobile 2](assets/images/lighthouse/lighthouse-heroes-mobile2.jpg)
+![Contact Page Lighthouse Desktop 2](assets/images/lighthouse/lighthouse-contact-desktop2.jpg)
+![Contact Page Lighthouse Mobile 2](assets/images/lighthouse/lighthouse-contact-mobile2.png)
+
+I have tried to improve page performance further on the phone for both the Heroes page and the Contact page by reducing the image file size of the main hero image on the page. Unfortunatley I have been unable to get this to happen. Although for the Contact page I have managed to improve the score for the mobile performance.
+![Contact Page Lighthouse Mobile 3](assets/images/lighthouse/lighthouse-contact-mobile3.png).
 
 
 ## Bugs
@@ -502,7 +505,6 @@ When I used the Google maps to get the code and API key into and on my page this
 There were errors with my JavaScript file and I kept on getting this message when I pressed send appear in the console. To combat this I re watched the EmailJS section of Rosie’s Resume and implemented the code for this. I was able to work out where I went wrong and this then enabled the form to work as expected and send the test message which was welcomely received in my Gmail inbox.
 ![EmailJS Console error](assets/images/testing/emailjs-console-error.jpg)
 
-
 ### EmailJS
 Having only looked into why the alert message was displaying without any of the form being filled in something happened that ruined the send through to my email address when the user submits their details. I reverted to previous working code for both HTML and JavaScript and this didn’t work either. I asked for some help from Tutor Support, and we came to the same conclusion that we believe this isn’t to do with JavaScript or my HTML but it seems like this problem is coming from the EmailJS side.
 ![EmailJS Console error test](assets/images/testing/emailjs-console-error.jpg)
@@ -510,10 +512,8 @@ Having only looked into why the alert message was displaying without any of the 
 The interesting thing is finding and viewing the stats on the EmailJS 
 ![EmailJS Stats](assets/images/testing/emailjs-stats.jpg)
 
-
 ### Contact box alert message
 Having successfully implemented an alert so that when they send their message/enquiry they know this has been sent it was discovered that although the fields were set as required, the message to alert of a successful send would still display regardless of the fields filled in or not. Writing this I haven’t figured out a useful way of sorting this issue out, but have tried to and have a contact js file in my testing with code that was sourced to show that I have tried to battle this issue and bug.
-
 
 ### Heroes button
 Originally my Show more button did not change or toggle to say Show less, but with a bit of help from the Stack Overflow and someone else asking the same question I was able to implement this feature using jQuery.
@@ -522,7 +522,6 @@ Originally my Show more button did not change or toggle to say Show less, but wi
 The issue that I have here is that with the button working the heroes all show. The idea of having the button is to show more and then hide these on load. The problem I had was to get those that should hide on load to do this. Working with my Uncle we found a very simple W3 Schools version and added some other jQuery to this. The problem was that this had two buttons and when the code that worked hiding the heroes was placed into my heroes js file and then the names of the elements altered to target those that require this it didn’t work. The only thing I can think of is to add the another button for hide and a separate button for show like the W3 Schools example as shown below.
 ![EmailJS Stats](assets/images/testing/w3-schools1.jpg)
 ![EmailJS Stats](assets/images/testing/w3-schools2.jpg)
-
 
 ### Smooth Scroll
 Having been able to implement the smooth scroll ability to the back to top button and testing this works on my Mac, upon testing on my iPhone and iPad I found that this function is not functioning on these devices, so unfortunately this bug/issue has had to remain for now.
@@ -553,6 +552,45 @@ You are more than welcome to run this project locally yourself, and if you would
 3. Click Clone, Open GitHub Desktop or Download ZIP.
 4. Open in your preferred IDE.
 5. Run on your preferred server.
+
+
+#### EmailJS set up:
+Using EmailJS will allow you as the website designer and coder to link your contact form to send emails through to your email address and is simple to set up. If you would like to also use EmailJS on your form then please follow the simple steps below:
+
+1. Go to this [web address](https://www.emailjs.com/) and click the Sign Up Free if you don’t have an EmailJS account.
+2. If you haven't got an account with EmailJS you need to sign up. You will be directed to this [page](https://dashboard.emailjs.com/sign-up).
+3. Upon sign up you will be taken to the [Email Services](https://dashboard.emailjs.com/admin) page. On this page you will see the + Add New Service button. Click this and you will see a list of email provider services and their logos. Select the email provider/service that you want to connect your email too.
+If you’re using Gmail you can connect your Gmail account to this service and send a test email to make sure this is connected (the test box has a tick auto enabled so this will send on your behalf when you click the Create Service button). Whereas if you’re using anything else like AOL, iCloud, Outlook or Yahoo you will need to put in your email address and a password. When connecting your email you will see a Service ID, this will need to be copied as you will require this later.
+4. Under Email Services you will then see your mail service logo and name with your service code, so if you didn’t copy this when you input your email please copy this now and place this safe in your JavaScript file as you will require this in your code to set up your code talking to this service.
+5. In the list on the left-hand side select [Email Templates](https://dashboard.emailjs.com/admin/templates) to get your email template set up. When you click here you will see it has a button that says + Create New Template. Click this or the Press [Create New Template](https://dashboard.emailjs.com/admin/templates/new) to create your first template!
+5. Now you are able to customise what you want your template to say as well as give it a name. Once you have done select the save in the top right-hand corner. Once you have saved this you will see The template has been added successfully appear in the top middle of the screen.
+6. To test the template and see if this is connected to your email you will then need to select Test It which is in the top right hand corner near the Save button.
+7. You will be able to fill in the form and then press the Send Test Email button. One thing to note is that above the  Send Test Email button there is the following:
+* Javascript Code
+	* emails.send("service_23hwu9m”,”template_iwyskgh”);
+You will need to also copy and save this somewhere (like your JavaScript file as you will need this later. In the template that you have edited to suit your requirements be sure to go to the settings and give this a name. The Template ID needs to be left as it is, so please do not change this part.
+8. So you have now set up your template and tested that this works with your email, you are now able to add in the code from EmailJS into your own JavaScript file. To do this head over to the [Integration](https://dashboard.emailjs.com/admin/integration/npm) section on the left-hand panel and select the [Browser](https://dashboard.emailjs.com/admin/integration/browser) button under the Integration title and next to the NPM button. In the Browser section just copy the below script and place this in your HTML before the closing head tag.
+
+If you would like to add the JavaScript in then there is some to get you started in the [Playground](https://jsfiddle.net/api/post/library/pure/) section. This will allow you to see the JavaScript that you may need to add to your JavaScript file. I used some of the code from the Rosie’s Resume template in order to complete mine.
+
+
+#### Adding an API with Google Maps to your website:
+If you would like to add a map using Google Maps API to your website, or if you are cloning my code or website you will need to take the following steps.
+
+1. Before you start though you will need to create or sign in to a Google account and have your credit card handy (Don’t worry, if you restrict your API key Google won’t bill you, so there will be no surprise payments). If you do not have a Google account you will need to [sign up](https://accounts.google.com/signup/v2/webcreateaccount?hl=en&flowName=GlifWebSignIn&flowEntry=SignUp) to be able to start the process of using the Maps API.
+2. As mentioned above you will need to give Google your credit card details. The billing page is [here](https://developers.google.com/maps/billing/gmp-billing). 
+3. If you go to the [Getting started with Google Maps](https://developers.google.com/maps/gmp-get-started#quickstart) page and scroll down you will see the section that says Quick Start. Under here there is a 3 Step way to Set up your project, Enable APIs or SDKs and get an API key.
+4. Click the button that says [Go to the project selector page](https://console.cloud.google.com/projectselector2/home/dashboard)
+5. You will be taken to the [Dashboard](https://console.cloud.google.com/projectselector2/home/dashboard) page. Here you will need to click on the link in the top right-hand corner CREATE PROJECT. This will bring you to the [New Project](https://console.cloud.google.com/projectcreate?previousPage=%2Fprojectselector2%2Fhome%2Fdashboard) page where you can give your project a name. When you have done this then click the Create button on the bottom. You will then be taken to a page that displays all your project info on.
+6. In the left-hand menu move your mouse over the APIs and Services, this will then open out a sub menu. Select the third option down that says Credentials and you will now be taken to the [Credentials](https://console.cloud.google.com/apis/credentials) page.
+7. At the top of this page select Create Credentials and then select API Key. This will open with a pop up where your API key is shown to you.
+8. Make sure that before you close this you have done the following.
+	* Copied your API key and put this in your HTML file for safety (as you will need this later)
+	* Clicked on the Restrict Key
+9. On this page you can name your API key for your project name, as well as also copy your API key if you forgot to do this before. Also you’re going to want to restrict your API key too, which you are able to do on this page as well.
+10. If you then go to the [Google Maps Platform APIs by Platform](https://developers.google.com/maps/apis-by-platform) and click on [Maps JavaScript API](https://developers.google.com/maps/documentation/javascript/overview). Customise maps with your own content and imagery. You will be taken to the JavaScript code that you can use as well as the CSS, HTML and the Inline Loading that you will copy and paste into your HTML and add in your API key in the section that says YOUR_API_KEY.
+
+Now that you’re all done you can explore and have some fun with the maps and the different ways and means of adding in your marker(s). To add a marker(s) to your project there is the link in the left-hand side of the panel that says [Add a marker to your map](https://developers.google.com/maps/documentation/javascript/adding-a-google-map) or if you want to add lots of markers in the same area of a map and would like them to cluster you can add [Cluster markers](https://developers.google.com/maps/documentation/javascript/marker-clustering). These pages on the Markers and Cluster markers give you the JavaScript and HTML that you need to be able to complete this task. Also there are many different ways in which you can try this for yourself. You can see examples in [Fiddle](https://jsfiddle.net/api/post/library/pure/), [CodeSandBox.io](https://codesandbox.io/embed/github/googlemaps/js-samples/tree/sample-marker-clustering), [Stackblitz.com](https://stackblitz.com/github/googlemaps/js-samples/tree/sample-marker-clustering?file=README.md), [GitPod](https://amaranth-mackerel-ndfwhfsk.ws-eu16.gitpod.io/) and [Google Cloud Shell](https://ssh.cloud.google.com/cloudshell/editor?cloudshell_git_repo=https%3A%2F%2Fgithub.com%2Fgooglemaps%2Fjs-samples&cloudshell_git_branch=sample-marker-clustering&cloudshell_tutorial=CLOUD_SHELL_INSTRUCTIONS.md&cloudshell_workspace=.) for both Markers and Marker clustering.
 
 
 ## Credits:
