@@ -15,32 +15,32 @@ My website has been designed to be responsive across all platforms. The original
 
 ## Table of Contents
 1. [User Experience UX](#user-experience-ux)
- * [User Stories](#user-stories) 
- * [As a new / first time user](#new-first-time-user)
- * [Returning Visitor Goals](#returning-visitor-goals)
- * [Frequent User Goals](#frequent-user-goals)
- * [User Customer Goals](#user-goals)
- * [Business Goals](#business-goals)
- * [Scope](#scope) 
- * [Structure](#structure) 
- * [Design](#design)
- * [Imagery](#imagery)
- * [Wireframes](#wireframes)
+    * [User Stories](#user-stories) 
+    * [As a new / first time user](#new-first-time-user)
+    * [Returning Visitor Goals](#returning-visitor-goals)
+    * [Frequent User Goals](#frequent-user-goals)
+    * [User Customer Goals](#user-goals)
+    * [Business Goals](#business-goals)
+    * [Scope](#scope) 
+    * [Structure](#structure) 
+    * [Design](#design)
+    * [Imagery](#imagery)
+    * [Wireframes](#wireframes)
 2. [Features](#features)
- * [Existing-features](#existing-features)
- * [Future-features](#future-features)
+    * [Existing-features](#existing-features)
+    * [Future-features](#future-features)
 3. [Technologies and Languages Used](#technologies)
- * [Other Resources](#other-resources) 
- * [Social Media](#social-media)
+    * [Other Resources](#other-resources) 
+    * [Social Media](#social-media)
 4. [Testing](#testing)
- * [Implementation](#implementation)
- * [Results](#results)
- * [Bugs](#bugs)
+    * [Implementation](#implementation)
+    * [Results](#results)
+    * [Bugs](#bugs)
 5. [Deployment](#deployment)
 6. [Credits](#credits)
- * [Content](#content)
- * [Media](#media)
- * [Acknowledgments](#acknowledgments)
+    * [Content](#content)
+    * [Media](#media)
+    * [Acknowledgments](#acknowledgments)
 
 
 ## User Experience UX 
@@ -276,7 +276,7 @@ In this section I will briefly highlight some of the features that my website co
 * On the pages where records go over more than 1 page when the user clicks the number at the bottom have the page automatically scroll to the top of the new page that they have clicked on.
 * I would like to not only focus on the unfortunate people that didn’t return but also those that did as they are all heroes as well.
 * I would like to branch from World War One into World War Two but would need to separate this in the menu bar with a new link, then from there like the additions to the World War One section categorise this into the relevant sections, based on where they fought, and if they were the fortunate ones to live to tell the tale of the horrors they unfortunately witnessed.
-* Branching out and mentioning sections I would like to have for example Battle of Tannenberg, Battle Of Cambrai (1917), German Spring Offensives On The Western Front (1918), Battle Of The Somme (1916) which are some of the key dates/campaigns in World War One, to Operation Torch (November 1942), Siege Of Leningrad (September 1941 To January 1942), Battle Of The Atlantic (September 1939 To May 1945), Battle Of Britain (July 1940 To October 1940), Operation Barbarossa (June To December 1941) some of the key battles/campaigns of World War Two. With these sections/categories, I could put the Heroes and History in which would help people that know about their relatives and the campaigns/dates to help the user better find their Heroes easily.
+* Branching out and mentioning sections I would like to have for example Battle of Tannenberg, Battle Of Cambrai (1917), German Spring Offensives On The Western Front (1918), Battle Of The Somme (1916) which are some of the key dates/campaigns in World War One, to Operation Torch (November 1942), Siege Of Leningrad (September 1941 To January 1942), Battle Of The Atlantic (September 1939 To May 1945), Battle Of Britain (July 1940 To October 1940), Operation Barbarossa (June To December 1941) some of the key battles/campaigns of World War Two. With these sections/categories, I could put the Heroes and History in which would help people that know about their relatives and the campaigns/dates to help the user better find their Heroes easily.
 * I would like to add a section with all the FAQ or Frequently Asked Questions, this is in order to again facilitate the user and give them a better experience whilst saving them time filling out the contact box and waiting for a reply to their question.
 * I would like to add the ability to trace and find other heroes that were in the same unit(s), location or fought alongside with my relatives as well as the other heroes. I would like to see if they have stories or more to tell about the conditions, life, moral, etc.
 * If I am able to find any photos of those that sadly I was unable to find I would like to be able to add these in to make sure that all heroes have a face to their name.
@@ -515,6 +515,8 @@ The interesting thing is finding and viewing the stats on the EmailJS
 ### Contact box alert message
 Having successfully implemented an alert so that when they send their message/enquiry they know this has been sent it was discovered that although the fields were set as required, the message to alert of a successful send would still display regardless of the fields filled in or not. Writing this I haven’t figured out a useful way of sorting this issue out, but have tried to and have a contact js file in my testing with code that was sourced to show that I have tried to battle this issue and bug.
 
+Having worked with my Mentor Caleb a solution has been implemented and the contact form will now not send unless the fields are filled out.
+
 ### Heroes button
 Originally my Show more button did not change or toggle to say Show less, but with a bit of help from the Stack Overflow and someone else asking the same question I was able to implement this feature using jQuery.
 
@@ -539,7 +541,7 @@ In order to create this website I used GitPod to write the code, upload and stor
 The below are the following steps I took to deploy my website and make this live:
 
 1. Click on the Repositories tab in GitHub.
-2. Click on the go-tennis-ms1 link which is at the top of my repositories. This is here as it is the most recent file I have been working on. 
+2. Click on the war-heroes-remembered-ms2 link which is at the top of my repositories. This is here as it is the most recent file I have been working on. 
 3. Click the settings tab.
 4. Scroll all the way down near the bottom to [GitHub Pages](https://pages.github.com/) which now has its own dedicated tab.
 5. Click the Check it out, which will take you to GitHub Pages.
