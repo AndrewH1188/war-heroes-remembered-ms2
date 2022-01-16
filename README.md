@@ -33,6 +33,7 @@ My website has been designed to be responsive across all platforms. The original
     * [Other Resources](#other-resources) 
     * [Social Media](#social-media)
 4. [Testing](#testing)
+    * [Testing User Stories](#testing-user-stories)
     * [Implementation](#implementation)
     * [Results](#results)
     * [Bugs](#bugs)
@@ -405,6 +406,82 @@ There were errors with my JavaScript file and I kept on getting this message whe
 
 The images shown are just some of the many tests that I have carried out throughout this project. There have been some tests where I haven’t been successful in changing the outcome, but I’m sure that if I revisit this project after gaining more experience I will be able to fix these.
 
+## Testing User Stories:
+* A new / first time user is able to achieve goals of being able to find some War Heroes, although if I am able to add new additions and a search function this will help them to be able to achieve more of their goals. As there are so many heroes that took part it is impossible to add everyone, although the small selection that I have will hopefully enlighten the new user / first time user to some of the stories of those that played their part that are listed.
+
+* As a user I am interested in expanding my knowledge on this subject of the people that went and played their part and am interested in the heroes and their stories they have to tell. I would like to learn further and from what I have seen sparks my curiosity as this interests me.
+
+* As a first time user I understand that this website has been created to highlight and show some of those that went and made the ultimate sacrifice during the First World War. I am also able to see where each of the heroes listed on the Heroes page are buried or are commemorated on a memorial and their locations on the map. I can learn a bit more about the heroes that played their part on the Heroes page, where I am able to see an image of the Hero (if there is one available that I have been able to source from the online availability, if this has been made public) and details about them.
+
+* As a first time / new user I understand that there were many other heroes that went and played their part and that it is not possible to have listed everyone on this site, as well as some may be impossible to trace due to details not being publicly available, have known graves or like some of the heroes on the page a photo of them that exists. I can see that this has been mentioned in the Welcome section on the Home page.
+
+* As a first time / new user I am able to interact with the Map / Contact page by seeing where Heroes are remembered on either Memorials or are buried. I am able to get in touch to send a message through to the site owner as well. I would have liked more interaction on the Heroes page where I could find out more information about them in the way of being able to click their name and a pop up shows more details if there are any further details to be known about them.
+
+* As a first time / new user I am able to see the different age ranges that took part as these are listed in the heroes details as well as see the different locations that these heroes went and fought in. I am also able to gain an understanding that although they say “the men that went out to fight” there were also women there that helped in the way of nursing them back to health and looking after them when they were injured.
+
+* I am able to use the map to see the locations of the heroes. As the map is from Google Maps I am able to see a satellite view of the memorials / cemeteries. I can see the name of the hero and the name of the cemetery / memorial that they are remembered / buried in on the pin that has been added. This allows me as a user to be able to be able to plan a visit to these locations for myself as well as to some of the locations that the heroes are from.
+
+
+#### Testing User questions: 
+* As a new / first time user I can see that this site offers me a small insight to some of the heroes that went and made the ultimate sacrifice during World War One.
+
+* I can see that the content and information is relevant to the site and what the site is trying to deliver to me as a user.
+
+* This site achieves the aim of what I am looking for in the way of finding out about some of those that went and played their part during the First World War. It also informs me of their age that they sadly were killed or died, as well as the locations of where they are remembered or buried.
+
+* This site gives me a small depth of information that would encourage me to want to go and do some of my own research into the heroes listed, as well as see if there are any that may have been in my family that also went and played their part.
+
+* I can see as a starting base of why I should use this website over others as it gives me information into some of those that went and played their part.
+
+* I would as a first time user return to this website because of the design, layout and interaction this site has to offer me.
+
+* As a user I can verify that the information that has been presented to me is accurate, I am able to cross-reference this with other websites like the site owner has done to ensure information is accurate if I so wish to do this.
+
+* I can see that all information contained within this site is as up to date as it can be. The information has been sourced from historic records that have as much information that was and is known on them. Unless any further information comes to light the information that is provided is deemed to be correct, accurate and up to date as it can be.
+
+* The information that is shown is sufficient for me to have an idea and understanding of what the site is about, although I would like to see a bit more about the heroes that took part if this is possible with the information that is available.
+
+
+#### Returning User Goals Testing: 
+* To ensure that a returning user / visitor will keep coming back to my site I will keep the website updated and maintained so that returning users are able to learn new things as well as see new heroes. As part of updating this site I will keep the same level of clarity, information and clean layout that there is currently so that this helps returning users / visitors to learn more about those that went and fought in World War One.
+
+* As part of updating the Heroes page with new heroes I will update the map with these new heroes locations so that the returning user / visitor can see where these heroes are buried or remembered.
+
+* As part of the updating of this site I will ensure that there is more information that the returning users / visitors will be able to see regarding locations of where the heroes are remembered or buried. I would like to be able to find out where some of those that were buried / buried first (like Private Richard Spearink) and have this linked to my hero on the map. I would also like to incorporate the ability of being able to click a link in the heroes profile that would take the returning visitor / user to the location on the map that relates to this hero.
+
+* As a returning user / visitor I am able to trace my relative (if I know their name, rank, regiment and location(s)) and see those that also went out and fought alongside them. I am able to do this by looking on the Heroes page as well as their locations of burial / memorial on the map.
+
+* As a returning user / visitor I can see that the information provided to me is helpful and allows me, this achieves my goals of finding out some of the heroes that went and fought in the First World War.
+
+* As part of the ongoing maintenance of the site there will be more content, information, pages and locations on the map that will be added so that this keeps the user / visitor returning to my page. Also there will be a section of the site that has some information about the locations, although as this is primarily about those that went and fought, and so the sole focus will be on the heroes themselves, with a bit of information where they are buried / remembered.
+
+* All new and existing content shall be of interest to the returning user / visitor in order to keep their knowledge expanding and their interest in my site and what this has to offer them.
+
+* As a returning user / visitor I will still be able to achieve my goals and needs as well as learn more about the events before, during and after the war for those heroes that went and played their part, and for those that were fortunate to have returned home again.
+
+
+#### Frequent User Goals Testing: 
+* To ensure that a frequent user / visitor will keep coming back to my site I will keep the website updated and maintained so that frequent users / visitors are able to learn new things as well as see new heroes. As part of updating this site I will keep the same level of clarity, information and clean layout that there is currently, so that this helps them to learn more about those that went and fought in World War One.
+
+* As part of the updating of this site I will ensure that there is more information that the frequent users / visitors will be able to see regarding locations of where the heroes are remembered or buried. I would like to be able to find out where some of those that were buried / buried first (like Private Richard Spearink) and have this linked to my hero on the map. I would also like to incorporate the ability of being able to click a link in the heroes profile that would take the returning visitor / user to the location on the map that relates to this hero.
+
+* As a frequent user / visitor I am able to use the contact form on the Contact page to be able to get involved with this website and contribute towards it. 
+
+* In relation to the contributing statement above, every day on my War Heroes Remembered Instagram page (that I have set up) I get at least 2 tags and / or messages from users interacting with this page. This is an unexpected success as users are engaging with me directly with content as well as new followers on my Social Media page. I originally set this Instagram page up as a way to make my web page have a more professional look, feel and brand about it, although I must admit I never expected the kind of interaction that I have received on Instagram, but am very thankful that my Social Media is playing its part.
+
+* As a frequent user / visitor I can see that the site will be maintained, looked after and updated as the suggestions from those that have been put forward on Instagram and other ways (like the contact form that I have used to make an addition to the Heroes page) will have been implemented on the Heroes page.
+
+
+#### User Goals Testing: 
+* As part of my user goals I am able to find the necessary information that I am looking for reliably, quickly and easily and helps keep me focused and returning for more knowledge and information that this page currently offers me.
+
+* I am able to fulfill my user goals by finding out about the heroes listed by looking on the Heroes page, as well as the locations of their burial / name on a memorial on the Heroes page and on the map.
+
+* With the map showcasing where the heroes are buried / have memorials with their names on the user goal of being able to go and visit these locations has been met.
+
+* As mentioned above my Social Media is playing a part in achieving the user goals by allowing users to continue their journey and contribute. On my Instagram page (that I have set up) I get at least 2 tags and / or messages from users interacting with this page. This is an unexpected success as users are engaging with me directly with content as well as new followers too. I originally set this Instagram page up as a way to make my web page have a more professional look, feel and brand about it, although I must admit I never expected the kind of interaction that I have received on Instagram, but am very thankful that my Social Media is playing its part.
+
+* Users are able to get in contact to submit their contributions via the contact form and thus fulfill the user goals.
 
 ## Implementation:
 This is now my second Milestone Project and with the different tasks building websites on the Code Institute course I am becoming more familiar with GitPod and the various ways of working. Also as this is my second Milestone Project I have been able to debug my site fairly well. To debug my website I turned to my old trusty friend Google Dev Tools which are located in Chrome. Having built the site to be mobile first in terms of original layout / design this was fairly straightforward. Adding Bootstrap assisted me with some features for this in the nav bar and the contact form. My other friends were called on to help with the mobile first and these were the Media Queries. I went through the process of build, test, media query any section that required this in order to display correctly on a mobile or smaller device. I also used Lighthouse in Dev tools to check performance, accessibility, best practices and SEO for both computer and mobile. This highlighted any errors in my code and pin pointed me how these could be fixed or improved to increase score if possible. I have seen that there are issues with images that are affecting the scores of the performance mainly on mobile view and have worked with the feedback provided by Lighthouse to fix these as best as I can. I have also run my code through the [W3 Validator](https://validator.w3.org/) for my HTML [W3 Css Validator(https://jigsaw.w3.org/css-validator/) as well as [JS Hint](https://jshint.com/) for my JavaScript to see if there are any errors and use the feedback to fix these.
@@ -608,6 +685,7 @@ Now that you’re all done you can explore and have some fun with the maps and t
 * [ASPSnippets](https://www.aspsnippets.com/Articles/Google-Maps-API-V3-Add-multiple-markers-with-InfoWindow-to-Google-Map.aspx) - Code for the map and markers as well as help from Sheryl and Michael from the Code Institute Tutor Support.
 * [Ahmad Awais](https://codepen.io/ahmadawais/pen/NQdWQx?editors=1010) I used this to look and see how they managed to lay out the markers with the location names. I used their style for the var locations and did the same for mine. When the Marker is clicked the Hero location and name will show.
 * [Stack Overflow - jQuery](https://stackoverflow.com/questions/39128483/show-more-show-less-with-jquery) Was used to show more/show less button change state answered by [Alex Char](https://stackoverflow.com/users/3420271/alex-char). This has been referenced in the heroes js file also.
+* [Stack Overflow](https://stackoverflow.com/questions/5601647/html5-email-input-pattern-attribute) Was used to enable the email pattern on the contact form. This stops a user inputting something that doesnt follow the email address format and was answered by [Manifest Man](https://stackoverflow.com/users/5667103/manifest-man)
 * [demo2s](https://www.demo2s.com/javascript/jquery-toggle-show-hide-method.html) Was used for the show/hide toggle for the heroes to make them appear and disappear. This has been referenced in the heroes js file also.
 * [Code Institute](https://codeinstitute.net/) Code from Rosie's Resume and slightly amended for the emailjs. This has been referenced in the sendEmail js file also.
 
