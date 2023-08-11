@@ -5,6 +5,11 @@
     padding: 30px;
 }
 
+.navbar-nav {     
+    right: 20px;
+    position: absolute;
+} /* POSITIONS THE NAVBAR TO THE RIGHT */
+
 .navbar-brand {
     color: #fff;
     font-size: x-large;
